@@ -671,8 +671,8 @@
       "IBC"
     ],
     [
-      "c13f949f-6ed6-42e7-acc0-b961ec191f41",
-      "RF Switching PSU"
+      "1008e2fb-3ddd-4ae6-bc4d-94ec83ca7d40",
+      "Linear POL LMK"
     ],
     [
       "c7be17f0-832c-4fd9-a896-8c518f3eba26",
@@ -683,16 +683,48 @@
       "House Keeping Supply 3.3V"
     ],
     [
-      "15f4ac55-d4c2-41d0-a96a-9bef52417ca4",
-      "Linear POL LMK"
+      "94144f86-6c10-4bf6-8112-48c8c30ee72b",
+      "Linear POL LMX"
     ],
     [
-      "5d18fa88-ec6a-4831-8ee6-acccb82dd255",
-      "Linear POL LMX"
+      "f8e9761d-04af-4a91-85c5-fba55f506320",
+      "RF Switching PSU"
     ],
     [
       "aad3f0e3-dcbe-4112-94dc-37caa60c9eb1",
       "MCU"
+    ],
+    [
+      "afb00c68-0259-43f8-a90b-9aecb9e48121",
+      "10MHz Dist"
+    ],
+    [
+      "b6d10ebd-de3b-4c04-9b92-b45439e6c8bc",
+      "Output Buffer 2"
+    ],
+    [
+      "e872460b-d3fe-4751-b761-41fb3676fb09",
+      "Output Buffer 1"
+    ],
+    [
+      "7c978552-5b4a-42c0-8673-7ad7084ad1bb",
+      "Output Buffer 3"
+    ],
+    [
+      "8a850f73-d6c1-472b-a473-923c65fe760e",
+      "Output Buffer 4"
+    ],
+    [
+      "28dccbc8-62a2-4750-b12f-4e220cef19bd",
+      "RF Supplies"
+    ],
+    [
+      "89c1d7e3-bbee-4284-843e-668e09d75bda",
+      "Linear POL Dist"
+    ],
+    [
+      "d5a7e3c4-49dd-4cc7-9d82-7c02320e6daf",
+      "Clocking"
     ]
   ],
   "text_variables": {}
