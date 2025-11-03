@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.447 -54.61 0)
+			(at 20.574 -53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "LMK0482x"
-			(at 20.447 -52.578 0)
+			(at 20.574 -51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		)
 		(symbol "LMK0482x_0_0"
 			(pin input line
-				(at -34.29 30.48 0)
+				(at -33.02 40.64 0)
 				(length 2.54)
 				(name "CS_{n}"
 					(effects
@@ -71,7 +71,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 27.94 0)
+				(at -33.02 38.1 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -89,7 +89,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -34.29 25.4 0)
+				(at -33.02 35.56 0)
 				(length 2.54)
 				(name "SDIO"
 					(effects
@@ -107,7 +107,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 22.86 0)
+				(at -33.02 33.02 0)
 				(length 2.54)
 				(name "RESET"
 					(effects
@@ -125,7 +125,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 20.32 0)
+				(at -33.02 30.48 0)
 				(length 2.54)
 				(name "SYNC/SYSREFREQ"
 					(effects
@@ -143,7 +143,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 15.24 0)
+				(at -33.02 25.4 0)
 				(length 2.54)
 				(name "SEL_{1}"
 					(effects
@@ -161,7 +161,7 @@
 				)
 			)
 			(pin input line
-				(at -34.29 12.7 0)
+				(at -33.02 22.86 0)
 				(length 2.54)
 				(name "SEL_{0}"
 					(effects
@@ -179,7 +179,7 @@
 				)
 			)
 			(pin output line
-				(at -34.29 10.16 0)
+				(at -33.02 20.32 0)
 				(length 2.54)
 				(name "LD_{1}"
 					(effects
@@ -197,7 +197,7 @@
 				)
 			)
 			(pin output line
-				(at -34.29 7.62 0)
+				(at -33.02 17.78 0)
 				(length 2.54)
 				(name "LD_{2}"
 					(effects
@@ -215,7 +215,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 45.72 270)
+				(at -13.97 53.34 270)
 				(length 2.54)
 				(name "VCC1_{VCO}"
 					(effects
@@ -233,7 +233,7 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 45.72 270)
+				(at -11.43 53.34 270)
 				(length 2.54)
 				(name "VCC2_{CG1}"
 					(effects
@@ -251,7 +251,7 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 45.72 270)
+				(at -8.89 53.34 270)
 				(length 2.54)
 				(name "VCC3_{SYSREF}"
 					(effects
@@ -269,7 +269,7 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 45.72 270)
+				(at -6.35 53.34 270)
 				(length 2.54)
 				(name "VCC4_{CG2}"
 					(effects
@@ -287,7 +287,7 @@
 				)
 			)
 			(pin power_in line
-				(at -3.81 45.72 270)
+				(at -3.81 53.34 270)
 				(length 2.54)
 				(name "VCC5_{DIG}"
 					(effects
@@ -305,7 +305,7 @@
 				)
 			)
 			(pin power_in line
-				(at -1.27 45.72 270)
+				(at -1.27 53.34 270)
 				(length 2.54)
 				(name "VCC6_{PLL1}"
 					(effects
@@ -323,7 +323,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -54.61 90)
+				(at 0 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -341,7 +341,7 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 45.72 270)
+				(at 1.27 53.34 270)
 				(length 2.54)
 				(name "VCC7_{OSCOUT}"
 					(effects
@@ -359,7 +359,7 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 45.72 270)
+				(at 3.81 53.34 270)
 				(length 2.54)
 				(name "VCC8_{OSCIN}"
 					(effects
@@ -377,7 +377,7 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 45.72 270)
+				(at 6.35 53.34 270)
 				(length 2.54)
 				(name "VCC9_{CP2}"
 					(effects
@@ -395,7 +395,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 45.72 270)
+				(at 8.89 53.34 270)
 				(length 2.54)
 				(name "VCC10_{PLL2}"
 					(effects
@@ -413,7 +413,7 @@
 				)
 			)
 			(pin power_in line
-				(at 11.43 45.72 270)
+				(at 11.43 53.34 270)
 				(length 2.54)
 				(name "VCC11_{CG3}"
 					(effects
@@ -431,7 +431,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 45.72 270)
+				(at 13.97 53.34 270)
 				(length 2.54)
 				(name "VCC12_{CG0}"
 					(effects
@@ -451,7 +451,7 @@
 		)
 		(symbol "LMK0482x_1_0"
 			(pin passive line
-				(at -34.29 0 0)
+				(at -33.02 10.16 0)
 				(length 2.54)
 				(name "CLKIN0_{P}"
 					(effects
@@ -469,7 +469,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -2.54 0)
+				(at -33.02 7.62 0)
 				(length 2.54)
 				(name "CLKIN0_{N}"
 					(effects
@@ -487,7 +487,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -7.62 0)
+				(at -33.02 2.54 0)
 				(length 2.54)
 				(name "CLKIN1_{P}"
 					(effects
@@ -505,7 +505,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -10.16 0)
+				(at -33.02 0 0)
 				(length 2.54)
 				(name "CLKIN1_{N}"
 					(effects
@@ -523,7 +523,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -15.24 0)
+				(at -33.02 -5.08 0)
 				(length 2.54)
 				(name "CLKIN2_{P}/OSCOUT_{N}"
 					(effects
@@ -541,7 +541,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -17.78 0)
+				(at -33.02 -7.62 0)
 				(length 2.54)
 				(name "CLKIN2_{N}/OSCOUT_{P}"
 					(effects
@@ -559,7 +559,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -22.86 0)
+				(at -33.02 -12.7 0)
 				(length 2.54)
 				(name "OSCIN_{P}"
 					(effects
@@ -577,7 +577,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -25.4 0)
+				(at -33.02 -15.24 0)
 				(length 2.54)
 				(name "OSCIN_{N}"
 					(effects
@@ -595,7 +595,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -30.48 0)
+				(at -33.02 -20.32 0)
 				(length 2.54)
 				(name "CP_{0}"
 					(effects
@@ -613,7 +613,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -38.1 0)
+				(at -33.02 -27.94 0)
 				(length 2.54)
 				(name "CP_{1}"
 					(effects
@@ -631,7 +631,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -45.72 0)
+				(at -33.02 -43.18 0)
 				(length 2.54)
 				(name "LDOBYP_{1}"
 					(effects
@@ -649,7 +649,7 @@
 				)
 			)
 			(pin passive line
-				(at -34.29 -48.26 0)
+				(at -33.02 -45.72 0)
 				(length 2.54)
 				(name "LDOBYP_{2}"
 					(effects
@@ -667,7 +667,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 38.1 180)
+				(at 33.02 40.64 180)
 				(length 2.54)
 				(name "DCLK0_{P}"
 					(effects
@@ -685,7 +685,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 35.56 180)
+				(at 33.02 38.1 180)
 				(length 2.54)
 				(name "DCLK0_{N}"
 					(effects
@@ -703,7 +703,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 30.48 180)
+				(at 33.02 33.02 180)
 				(length 2.54)
 				(name "SDCLK1_{P}"
 					(effects
@@ -721,7 +721,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 27.94 180)
+				(at 33.02 30.48 180)
 				(length 2.54)
 				(name "SDCLK1_{N}"
 					(effects
@@ -739,7 +739,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 22.86 180)
+				(at 33.02 25.4 180)
 				(length 2.54)
 				(name "DCLK2_{P}"
 					(effects
@@ -757,7 +757,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 20.32 180)
+				(at 33.02 22.86 180)
 				(length 2.54)
 				(name "DCLK2_{N}"
 					(effects
@@ -775,7 +775,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 15.24 180)
+				(at 33.02 17.78 180)
 				(length 2.54)
 				(name "SDCLK3_{P}"
 					(effects
@@ -793,7 +793,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 12.7 180)
+				(at 33.02 15.24 180)
 				(length 2.54)
 				(name "SDCLK3_{N}"
 					(effects
@@ -811,7 +811,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 7.62 180)
+				(at 33.02 10.16 180)
 				(length 2.54)
 				(name "DCLK4_{P}"
 					(effects
@@ -829,7 +829,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 5.08 180)
+				(at 33.02 7.62 180)
 				(length 2.54)
 				(name "DCLK4_{N}"
 					(effects
@@ -847,7 +847,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 0 180)
+				(at 33.02 2.54 180)
 				(length 2.54)
 				(name "SDCLK5_{P}"
 					(effects
@@ -865,7 +865,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -2.54 180)
+				(at 33.02 0 180)
 				(length 2.54)
 				(name "SDCLK5_{N}"
 					(effects
@@ -883,7 +883,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -7.62 180)
+				(at 33.02 -5.08 180)
 				(length 2.54)
 				(name "DCLK6_{P}"
 					(effects
@@ -901,7 +901,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -10.16 180)
+				(at 33.02 -7.62 180)
 				(length 2.54)
 				(name "DCLK6_{N}"
 					(effects
@@ -919,7 +919,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -15.24 180)
+				(at 33.02 -12.7 180)
 				(length 2.54)
 				(name "SDCLK7_{P}"
 					(effects
@@ -937,7 +937,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -17.78 180)
+				(at 33.02 -15.24 180)
 				(length 2.54)
 				(name "SDCLK7_{N}"
 					(effects
@@ -955,7 +955,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -22.86 180)
+				(at 33.02 -20.32 180)
 				(length 2.54)
 				(name "DCLK8_{P}"
 					(effects
@@ -973,7 +973,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -25.4 180)
+				(at 33.02 -22.86 180)
 				(length 2.54)
 				(name "DCLK8_{N}"
 					(effects
@@ -991,7 +991,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -30.48 180)
+				(at 33.02 -27.94 180)
 				(length 2.54)
 				(name "SDCLK9_{P}"
 					(effects
@@ -1009,7 +1009,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -33.02 180)
+				(at 33.02 -30.48 180)
 				(length 2.54)
 				(name "SDCLK9_{N}"
 					(effects
@@ -1027,7 +1027,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -38.1 180)
+				(at 33.02 -35.56 180)
 				(length 2.54)
 				(name "DCLK10_{P}"
 					(effects
@@ -1045,7 +1045,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -40.64 180)
+				(at 33.02 -38.1 180)
 				(length 2.54)
 				(name "DCLK10_{N}"
 					(effects
@@ -1063,7 +1063,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -45.72 180)
+				(at 33.02 -43.18 180)
 				(length 2.54)
 				(name "SDCLK11_{P}"
 					(effects
@@ -1081,7 +1081,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -48.26 180)
+				(at 33.02 -45.72 180)
 				(length 2.54)
 				(name "SDCLK11_{N}"
 					(effects
@@ -1101,8 +1101,8 @@
 		)
 		(symbol "LMK0482x_1_1"
 			(rectangle
-				(start -31.75 43.18)
-				(end 31.75 -52.07)
+				(start -30.48 50.8)
+				(end 30.48 -50.8)
 				(stroke
 					(width 0)
 					(type solid)
@@ -1119,19 +1119,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -22.098 48.26 0)
+			(at 17.272 -53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Value" "LMX2594"
-			(at 18.034 48.26 0)
+			(at 17.272 -51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:VQFN-40-1EP_5x5mm_P0.4mm_EP3.3x3.3mm"
@@ -1163,115 +1165,7 @@
 		)
 		(symbol "LMX2594_0_0"
 			(pin power_in line
-				(at -25.4 34.29 0)
-				(length 2.54)
-				(name "VCCBUF"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 31.75 0)
-				(length 2.54)
-				(name "VCCDIG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 29.21 0)
-				(length 2.54)
-				(name "VCCCP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 26.67 0)
-				(length 2.54)
-				(name "VCCMASH"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 24.13 0)
-				(length 2.54)
-				(name "VCCVCO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 21.59 0)
-				(length 2.54)
-				(name "VCCVCO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -25.4 16.51 0)
+				(at -27.94 30.48 0)
 				(length 2.54)
 				(name "VREGIN"
 					(effects
@@ -1289,7 +1183,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 13.97 0)
+				(at -27.94 27.94 0)
 				(length 2.54)
 				(name "VREGVCO1"
 					(effects
@@ -1307,7 +1201,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 11.43 0)
+				(at -27.94 25.4 0)
 				(length 2.54)
 				(name "VREGVCO2"
 					(effects
@@ -1325,7 +1219,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 8.89 0)
+				(at -27.94 22.86 0)
 				(length 2.54)
 				(name "VBIASVCO1"
 					(effects
@@ -1343,7 +1237,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 6.35 0)
+				(at -27.94 20.32 0)
 				(length 2.54)
 				(name "VBIASVCO2"
 					(effects
@@ -1361,7 +1255,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 3.81 0)
+				(at -27.94 17.78 0)
 				(length 2.54)
 				(name "VBIASVARAC"
 					(effects
@@ -1379,7 +1273,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -3.81 0)
+				(at -27.94 -12.7 0)
 				(length 2.54)
 				(name "CE"
 					(effects
@@ -1397,7 +1291,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -8.89 0)
+				(at -27.94 -17.78 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -1415,7 +1309,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -11.43 0)
+				(at -27.94 -20.32 0)
 				(length 2.54)
 				(name "SDI"
 					(effects
@@ -1432,8 +1326,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at -27.94 -22.86 0)
+				(length 2.54)
+				(name "MUXOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -25.4 -16.51 0)
+				(at -27.94 -27.94 0)
 				(length 2.54)
 				(name "RAMPCLK"
 					(effects
@@ -1451,7 +1363,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -19.05 0)
+				(at -27.94 -30.48 0)
 				(length 2.54)
 				(name "RAMPDIR"
 					(effects
@@ -1469,7 +1381,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -24.13 0)
+				(at -27.94 -35.56 0)
 				(length 2.54)
 				(name "SYNC"
 					(effects
@@ -1487,7 +1399,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -26.67 0)
+				(at -27.94 -38.1 0)
 				(length 2.54)
 				(name "SYSREFREQ"
 					(effects
@@ -1504,26 +1416,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -25.4 -29.21 0)
-				(length 2.54)
-				(name "MUXOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -12.7 -40.005 90)
+				(at -12.7 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1541,7 +1435,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -40.005 90)
+				(at -10.16 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1559,7 +1453,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 -40.005 90)
+				(at -7.62 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1577,7 +1471,25 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -40.005 90)
+				(at -6.35 53.34 270)
+				(length 2.54)
+				(name "VCCBUF"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -5.08 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1595,7 +1507,25 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -40.005 90)
+				(at -3.81 53.34 270)
+				(length 2.54)
+				(name "VCCDIG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1613,7 +1543,25 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -40.005 90)
+				(at -1.27 53.34 270)
+				(length 2.54)
+				(name "VCCCP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1631,7 +1579,25 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -40.005 90)
+				(at 1.27 53.34 270)
+				(length 2.54)
+				(name "VCCMASH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1649,7 +1615,25 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 -40.005 90)
+				(at 3.81 53.34 270)
+				(length 2.54)
+				(name "VCCVCO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1667,7 +1651,25 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -40.005 90)
+				(at 6.35 53.34 270)
+				(length 2.54)
+				(name "VCCVCO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 7.62 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1685,7 +1687,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -40.005 90)
+				(at 10.16 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1703,7 +1705,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -40.005 90)
+				(at 12.7 -53.34 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1721,7 +1723,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 44.45 180)
+				(at 27.94 40.64 180)
 				(length 2.54)
 				(name "RFOUTA_{P}"
 					(effects
@@ -1739,7 +1741,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 41.91 180)
+				(at 27.94 38.1 180)
 				(length 2.54)
 				(name "RFOUTA_{N}"
 					(effects
@@ -1757,7 +1759,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 34.29 180)
+				(at 27.94 30.48 180)
 				(length 2.54)
 				(name "RFOUTB_{N}"
 					(effects
@@ -1775,7 +1777,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 31.75 180)
+				(at 27.94 27.94 180)
 				(length 2.54)
 				(name "RFOUTB_{P}"
 					(effects
@@ -1793,7 +1795,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 6.35 180)
+				(at 27.94 -12.7 180)
 				(length 2.54)
 				(name "CPOUT"
 					(effects
@@ -1811,7 +1813,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 3.81 180)
+				(at 27.94 -15.24 180)
 				(length 2.54)
 				(name "VTUNE"
 					(effects
@@ -1831,7 +1833,7 @@
 		)
 		(symbol "LMX2594_1_0"
 			(pin passive line
-				(at -25.4 44.45 0)
+				(at -27.94 40.64 0)
 				(length 2.54)
 				(name "OSCIN_{P}"
 					(effects
@@ -1849,7 +1851,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 41.91 0)
+				(at -27.94 38.1 0)
 				(length 2.54)
 				(name "OSCIN_{N}"
 					(effects
@@ -1867,7 +1869,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -6.35 0)
+				(at -27.94 -15.24 0)
 				(length 2.54)
 				(name "CS_{n}"
 					(effects
@@ -1887,8 +1889,8 @@
 		)
 		(symbol "LMX2594_1_1"
 			(rectangle
-				(start -22.86 46.99)
-				(end 22.86 -37.465)
+				(start -25.4 50.8)
+				(end 25.4 -50.8)
 				(stroke
 					(width 0)
 					(type solid)
