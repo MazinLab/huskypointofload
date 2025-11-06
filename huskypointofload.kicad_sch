@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "eb9c972b-d134-41da-be97-ece3f463f7e0")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -1685,8 +1685,8 @@
 		)
 	)
 	(rectangle
-		(start 217.17 55.88)
-		(end 229.87 60.96)
+		(start 339.09 55.88)
+		(end 351.79 60.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -1697,8 +1697,8 @@
 		(uuid 0419dd9b-230c-4462-8137-c776585ccb1e)
 	)
 	(rectangle
-		(start 217.17 20.32)
-		(end 229.87 25.4)
+		(start 339.09 20.32)
+		(end 351.79 25.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -1709,8 +1709,8 @@
 		(uuid 0a89ebfd-63e9-4623-b3ec-ce2a9c8132e9)
 	)
 	(rectangle
-		(start 257.81 46.99)
-		(end 270.51 52.07)
+		(start 379.73 46.99)
+		(end 392.43 52.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -1721,8 +1721,8 @@
 		(uuid 0af64396-5f76-4911-974a-6773aaea231d)
 	)
 	(rectangle
-		(start 257.81 29.21)
-		(end 270.51 34.29)
+		(start 379.73 29.21)
+		(end 392.43 34.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -1733,8 +1733,8 @@
 		(uuid 48ab5bea-6815-419e-b8b8-434dba63a389)
 	)
 	(rectangle
-		(start 217.17 29.21)
-		(end 229.87 34.29)
+		(start 339.09 29.21)
+		(end 351.79 34.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -1745,8 +1745,8 @@
 		(uuid a7440f8e-cdbb-4115-aa10-023e3b7310de)
 	)
 	(rectangle
-		(start 186.69 17.78)
-		(end 279.4 72.39)
+		(start 308.61 17.78)
+		(end 401.32 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -1757,8 +1757,8 @@
 		(uuid af97ef83-2feb-43dc-bdad-4b55e0352a31)
 	)
 	(rectangle
-		(start 237.49 29.21)
-		(end 250.19 34.29)
+		(start 359.41 29.21)
+		(end 372.11 34.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -1769,8 +1769,8 @@
 		(uuid dd0895c3-2f8c-4f68-8bbf-f087d5959908)
 	)
 	(rectangle
-		(start 257.81 38.1)
-		(end 270.51 43.18)
+		(start 379.73 38.1)
+		(end 392.43 43.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -1781,8 +1781,8 @@
 		(uuid dff384b0-a0f2-4062-b4cb-21e526049c90)
 	)
 	(rectangle
-		(start 196.85 20.32)
-		(end 209.55 25.4)
+		(start 318.77 20.32)
+		(end 331.47 25.4)
 		(stroke
 			(width 0)
 			(type default)
@@ -1793,8 +1793,8 @@
 		(uuid f0419f08-1cd3-4ea8-b6d3-4700d4ff0480)
 	)
 	(rectangle
-		(start 217.17 64.77)
-		(end 229.87 69.85)
+		(start 339.09 64.77)
+		(end 351.79 69.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -1806,7 +1806,7 @@
 	)
 	(text "VDC"
 		(exclude_from_sim no)
-		(at 213.36 30.48 0)
+		(at 335.28 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1826,7 +1826,7 @@
 	)
 	(text "48V"
 		(exclude_from_sim no)
-		(at 193.04 21.59 0)
+		(at 314.96 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1836,7 +1836,7 @@
 	)
 	(text "5A FUSE + FILTER\n250mV/A ISENSE"
 		(exclude_from_sim no)
-		(at 223.52 32.004 0)
+		(at 345.44 32.004 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1846,7 +1846,7 @@
 	)
 	(text "LT8625S uMOD\n12V->4V8A"
 		(exclude_from_sim no)
-		(at 243.84 32.004 0)
+		(at 365.76 32.004 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1856,7 +1856,7 @@
 	)
 	(text "LMR36510ADDA\n48V/12V->3.3V1A"
 		(exclude_from_sim no)
-		(at 223.52 67.564 0)
+		(at 345.44 67.564 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1866,7 +1866,7 @@
 	)
 	(text "RFSoC\n"
 		(exclude_from_sim no)
-		(at 233.68 21.59 0)
+		(at 355.6 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,7 +1876,7 @@
 	)
 	(text "12V"
 		(exclude_from_sim no)
-		(at 213.36 21.59 0)
+		(at 335.28 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1886,7 +1886,7 @@
 	)
 	(text "4V"
 		(exclude_from_sim no)
-		(at 254 30.48 0)
+		(at 375.92 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1896,7 +1896,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 233.68 57.15 0)
+		(at 355.6 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1906,7 +1906,7 @@
 	)
 	(text "LT3045\n4V->3.3V0.8A"
 		(exclude_from_sim no)
-		(at 264.16 40.64 0)
+		(at 386.08 40.64 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1916,7 +1916,7 @@
 	)
 	(text "LMR36510ADDA\n48V/12V->5V1A"
 		(exclude_from_sim no)
-		(at 223.52 58.674 0)
+		(at 345.44 58.674 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1936,7 +1936,7 @@
 	)
 	(text "LT3045\n4V->3.3V0.8A"
 		(exclude_from_sim no)
-		(at 264.16 32.004 0)
+		(at 386.08 32.004 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1946,7 +1946,7 @@
 	)
 	(text "10V"
 		(exclude_from_sim no)
-		(at 274.32 48.006 0)
+		(at 396.24 48.006 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1956,7 +1956,7 @@
 	)
 	(text "EPC23104 IBC\n48V->12V15A"
 		(exclude_from_sim no)
-		(at 203.2 23.114 0)
+		(at 325.12 23.114 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1966,7 +1966,7 @@
 	)
 	(text "3.3LMK"
 		(exclude_from_sim no)
-		(at 274.32 39.116 0)
+		(at 396.24 39.116 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1976,7 +1976,7 @@
 	)
 	(text "10A FUSE\n250mV/A ISENSE"
 		(exclude_from_sim no)
-		(at 223.52 23.114 0)
+		(at 345.44 23.114 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1986,7 +1986,7 @@
 	)
 	(text "12VRF"
 		(exclude_from_sim no)
-		(at 233.68 30.48 0)
+		(at 355.6 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1996,7 +1996,7 @@
 	)
 	(text "LT3045\n12V->10V0.8A"
 		(exclude_from_sim no)
-		(at 264.16 49.53 0)
+		(at 386.08 49.53 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -2006,7 +2006,7 @@
 	)
 	(text "48V to 12V DCDC for RFSoC and RF Low Noise PSUs\n\nDesigned for 13A at 12V, RFSoC will take 10A.\nPassives rated for an EPC23102 for a 25A upgrade"
 		(exclude_from_sim no)
-		(at 186.436 75.438 0)
+		(at 308.356 75.438 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2017,7 +2017,7 @@
 	)
 	(text "3.3"
 		(exclude_from_sim no)
-		(at 233.68 66.04 0)
+		(at 355.6 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 	)
 	(text "3.3LMX"
 		(exclude_from_sim no)
-		(at 274.32 30.48 0)
+		(at 396.24 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2037,7 +2037,7 @@
 	)
 	(text "VBUS"
 		(exclude_from_sim no)
-		(at 204.47 66.04 0)
+		(at 326.39 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2089,7 +2089,7 @@
 	)
 	(polyline
 		(pts
-			(xy 214.63 62.23) (xy 213.36 64.77)
+			(xy 336.55 62.23) (xy 335.28 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2109,7 +2109,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 31.75) (xy 237.49 31.75)
+			(xy 355.6 31.75) (xy 359.41 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2119,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 22.86) (xy 217.17 22.86)
+			(xy 335.28 22.86) (xy 339.09 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2139,7 +2139,7 @@
 	)
 	(polyline
 		(pts
-			(xy 212.09 53.34) (xy 214.63 53.34)
+			(xy 334.01 53.34) (xy 336.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2199,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 62.23) (xy 213.36 58.42)
+			(xy 335.28 62.23) (xy 335.28 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2209,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 49.53) (xy 254 49.53)
+			(xy 355.6 49.53) (xy 375.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2219,7 @@
 	)
 	(polyline
 		(pts
-			(xy 214.63 53.34) (xy 213.36 55.88)
+			(xy 336.55 53.34) (xy 335.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 35.56) (xy 154.94 35.56)
+			(xy 265.43 35.56) (xy 276.86 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2239,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 31.75) (xy 257.81 31.75)
+			(xy 375.92 31.75) (xy 379.73 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2259,7 +2259,7 @@
 	)
 	(polyline
 		(pts
-			(xy 229.87 67.31) (xy 233.68 67.31)
+			(xy 351.79 67.31) (xy 355.6 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2289,7 +2289,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 49.53) (xy 213.36 40.64)
+			(xy 335.28 49.53) (xy 335.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 25.4) (xy 154.94 25.4)
+			(xy 265.43 25.4) (xy 276.86 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2319,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 66.04) (xy 154.94 66.04)
+			(xy 265.43 66.04) (xy 276.86 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2339,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 71.12) (xy 154.94 71.12)
+			(xy 265.43 71.12) (xy 276.86 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +2349,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 58.42) (xy 210.82 58.42)
+			(xy 335.28 58.42) (xy 332.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2359,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 33.02) (xy 154.94 33.02)
+			(xy 265.43 33.02) (xy 276.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2369,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 67.31) (xy 210.82 67.31)
+			(xy 335.28 67.31) (xy 332.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2399,7 +2399,7 @@
 	)
 	(polyline
 		(pts
-			(xy 229.87 31.75) (xy 233.68 31.75)
+			(xy 351.79 31.75) (xy 355.6 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2429,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 58.42) (xy 213.36 55.88)
+			(xy 335.28 58.42) (xy 335.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2439,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 31.75) (xy 193.04 22.86)
+			(xy 314.96 31.75) (xy 314.96 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2449,7 +2449,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 58.42) (xy 193.04 49.53)
+			(xy 314.96 58.42) (xy 314.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 27.94) (xy 154.94 27.94)
+			(xy 265.43 27.94) (xy 276.86 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2479,7 +2479,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 53.34) (xy 213.36 49.53)
+			(xy 335.28 53.34) (xy 335.28 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2499,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 66.04) (xy 210.82 67.31)
+			(xy 330.2 66.04) (xy 332.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2509,7 +2509,7 @@
 	)
 	(polyline
 		(pts
-			(xy 204.47 67.31) (xy 208.28 67.31)
+			(xy 326.39 67.31) (xy 330.2 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2519,7 +2519,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 57.15) (xy 210.82 58.42)
+			(xy 330.2 57.15) (xy 332.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2539,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 67.31) (xy 217.17 67.31)
+			(xy 335.28 67.31) (xy 339.09 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2549,7 +2549,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 68.58) (xy 208.28 66.04)
+			(xy 330.2 68.58) (xy 330.2 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2559,7 +2559,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 40.64) (xy 213.36 31.75)
+			(xy 335.28 40.64) (xy 335.28 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2569,7 +2569,7 @@
 	)
 	(polyline
 		(pts
-			(xy 270.51 40.386) (xy 274.32 40.386)
+			(xy 392.43 40.386) (xy 396.24 40.386)
 		)
 		(stroke
 			(width 0)
@@ -2579,7 +2579,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 22.86) (xy 213.36 29.21)
+			(xy 335.28 22.86) (xy 335.28 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2599,7 +2599,7 @@
 	)
 	(polyline
 		(pts
-			(xy 270.51 49.276) (xy 274.32 49.276)
+			(xy 392.43 49.276) (xy 396.24 49.276)
 		)
 		(stroke
 			(width 0)
@@ -2609,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 20.32) (xy 154.94 20.32)
+			(xy 265.43 20.32) (xy 276.86 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2639,7 +2639,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 59.69) (xy 208.28 57.15)
+			(xy 330.2 59.69) (xy 330.2 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2649,7 +2649,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 67.31) (xy 213.36 64.77)
+			(xy 335.28 67.31) (xy 335.28 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2669,7 +2669,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 58.42) (xy 217.17 58.42)
+			(xy 335.28 58.42) (xy 339.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2679,7 +2679,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.55 22.86) (xy 213.36 22.86)
+			(xy 331.47 22.86) (xy 335.28 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2689,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 58.42) (xy 199.39 58.42)
+			(xy 330.2 58.42) (xy 321.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2699,7 +2699,7 @@
 	)
 	(polyline
 		(pts
-			(xy 229.87 22.86) (xy 233.68 22.86)
+			(xy 351.79 22.86) (xy 355.6 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2709,7 +2709,7 @@
 	)
 	(polyline
 		(pts
-			(xy 212.09 62.23) (xy 213.36 64.77)
+			(xy 334.01 62.23) (xy 335.28 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2759,7 +2759,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 22.86) (xy 196.85 22.86)
+			(xy 314.96 22.86) (xy 318.77 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2769,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 40.64) (xy 254 31.75)
+			(xy 375.92 40.64) (xy 375.92 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2779,7 @@
 	)
 	(polyline
 		(pts
-			(xy 189.23 22.86) (xy 193.04 22.86)
+			(xy 311.15 22.86) (xy 314.96 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2799,7 +2799,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 40.64) (xy 193.04 31.75)
+			(xy 314.96 40.64) (xy 314.96 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 43.18) (xy 154.94 43.18)
+			(xy 265.43 43.18) (xy 276.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 45.72) (xy 154.94 45.72)
+			(xy 265.43 45.72) (xy 276.86 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2829,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 57.15) (xy 154.94 57.15)
+			(xy 265.43 57.15) (xy 276.86 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2849,7 +2849,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 49.53) (xy 233.68 40.64)
+			(xy 355.6 49.53) (xy 355.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2859,7 +2859,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 38.1) (xy 154.94 38.1)
+			(xy 265.43 38.1) (xy 276.86 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2869,7 +2869,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 22.86) (xy 154.94 22.86)
+			(xy 265.43 22.86) (xy 276.86 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2879,7 +2879,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 40.64) (xy 257.81 40.64)
+			(xy 375.92 40.64) (xy 379.73 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +2889,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 40.64) (xy 233.68 31.75)
+			(xy 355.6 40.64) (xy 355.6 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +2919,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 58.42) (xy 199.39 58.42)
+			(xy 314.96 58.42) (xy 321.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2929,7 +2929,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 68.58) (xy 210.82 67.31)
+			(xy 330.2 68.58) (xy 332.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2949,7 +2949,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 68.58) (xy 154.94 68.58)
+			(xy 265.43 68.58) (xy 276.86 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2969,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 22.86) (xy 237.49 22.86)
+			(xy 355.6 22.86) (xy 359.41 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2979,7 +2979,7 @@
 	)
 	(polyline
 		(pts
-			(xy 212.09 53.34) (xy 213.36 55.88)
+			(xy 334.01 53.34) (xy 335.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3039,7 +3039,7 @@
 	)
 	(polyline
 		(pts
-			(xy 213.36 31.75) (xy 217.17 31.75)
+			(xy 335.28 31.75) (xy 339.09 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3049,7 @@
 	)
 	(polyline
 		(pts
-			(xy 254 49.53) (xy 257.81 49.53)
+			(xy 375.92 49.53) (xy 379.73 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3059,7 +3059,7 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 59.69) (xy 210.82 58.42)
+			(xy 330.2 59.69) (xy 332.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3069,7 @@
 	)
 	(polyline
 		(pts
-			(xy 270.51 31.75) (xy 274.32 31.75)
+			(xy 392.43 31.75) (xy 396.24 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3079,7 @@
 	)
 	(polyline
 		(pts
-			(xy 212.09 62.23) (xy 214.63 62.23)
+			(xy 334.01 62.23) (xy 336.55 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3089,7 @@
 	)
 	(polyline
 		(pts
-			(xy 250.19 31.75) (xy 254 31.75)
+			(xy 372.11 31.75) (xy 375.92 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3109,7 @@
 	)
 	(polyline
 		(pts
-			(xy 193.04 49.53) (xy 193.04 40.64)
+			(xy 314.96 49.53) (xy 314.96 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3119,7 +3119,7 @@
 	)
 	(polyline
 		(pts
-			(xy 229.87 58.42) (xy 233.68 58.42)
+			(xy 351.79 58.42) (xy 355.6 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 59.69) (xy 154.94 59.69)
+			(xy 265.43 59.69) (xy 276.86 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4634,7 +4634,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 17.78)
+		(at 276.86 17.78)
 		(size 25.4 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4650,7 +4650,7 @@
 		)
 		(uuid "28dccbc8-62a2-4750-b12f-4e220cef19bd")
 		(property "Sheetname" "RF Supplies"
-			(at 154.94 17.0684 0)
+			(at 276.86 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "Sheetfile" "rf_supplies.kicad_sch"
-			(at 154.94 50.1146 0)
+			(at 276.86 50.1146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 			)
 		)
 		(pin "DIST_EN" input
-			(at 154.94 43.18 180)
+			(at 276.86 43.18 180)
 			(uuid "caec6458-b700-447d-9c36-4a119655d0cc")
 			(effects
 				(font
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(pin "DIST_PG" input
-			(at 154.94 45.72 180)
+			(at 276.86 45.72 180)
 			(uuid "319b2ff3-a571-438e-8984-9bcd3c92c7a6")
 			(effects
 				(font
@@ -4688,7 +4688,7 @@
 			)
 		)
 		(pin "EN_RF4" input
-			(at 154.94 33.02 180)
+			(at 276.86 33.02 180)
 			(uuid "33462386-26f1-45f9-9499-31a2f6663112")
 			(effects
 				(font
@@ -4698,7 +4698,7 @@
 			)
 		)
 		(pin "PG_RF4" input
-			(at 154.94 35.56 180)
+			(at 276.86 35.56 180)
 			(uuid "16e01768-93d8-4238-8627-452055e177e8")
 			(effects
 				(font
@@ -4708,7 +4708,7 @@
 			)
 		)
 		(pin "RF4_SENSE" input
-			(at 154.94 22.86 180)
+			(at 276.86 22.86 180)
 			(uuid "367e7214-ec50-42eb-911b-8cfee07c6392")
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 			)
 		)
 		(pin "RF_ISENSE" input
-			(at 154.94 25.4 180)
+			(at 276.86 25.4 180)
 			(uuid "80372ed7-5492-4fb9-a21e-ebd0478c24fb")
 			(effects
 				(font
@@ -4728,7 +4728,7 @@
 			)
 		)
 		(pin "RF_SENSE" input
-			(at 154.94 20.32 180)
+			(at 276.86 20.32 180)
 			(uuid "f735b4a2-8e0d-42fe-8176-4e61dfe675cd")
 			(effects
 				(font
@@ -4738,7 +4738,7 @@
 			)
 		)
 		(pin "SOC_ISENSE" input
-			(at 154.94 27.94 180)
+			(at 276.86 27.94 180)
 			(uuid "171ec58d-8ba3-431d-b58f-0e4a2e3f1e38")
 			(effects
 				(font
@@ -4748,7 +4748,7 @@
 			)
 		)
 		(pin "SYNC_RF4" input
-			(at 154.94 38.1 180)
+			(at 276.86 38.1 180)
 			(uuid "04606fff-e09b-442a-b33f-f1d43c4db41e")
 			(effects
 				(font
@@ -4766,7 +4766,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 54.61)
+		(at 276.86 54.61)
 		(size 25.4 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4782,7 +4782,7 @@
 		)
 		(uuid "730bb28b-d610-46d0-b37f-1478e0e28608")
 		(property "Sheetname" "IBC"
-			(at 154.94 53.8984 0)
+			(at 276.86 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +4792,7 @@
 			)
 		)
 		(property "Sheetfile" "ibc.kicad_sch"
-			(at 154.94 74.2446 0)
+			(at 276.86 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +4801,7 @@
 			)
 		)
 		(pin "HS" input
-			(at 154.94 68.58 180)
+			(at 276.86 68.58 180)
 			(uuid "9273bd94-8b58-4203-a748-693ff044f455")
 			(effects
 				(font
@@ -4811,7 +4811,7 @@
 			)
 		)
 		(pin "LS" input
-			(at 154.94 71.12 180)
+			(at 276.86 71.12 180)
 			(uuid "15d07709-0c85-4828-81a0-a89a373d3c2d")
 			(effects
 				(font
@@ -4821,7 +4821,7 @@
 			)
 		)
 		(pin "~{EN}" input
-			(at 154.94 66.04 180)
+			(at 276.86 66.04 180)
 			(uuid "a64665fc-fc87-4dff-bd08-f3b5435e6590")
 			(effects
 				(font
@@ -4831,7 +4831,7 @@
 			)
 		)
 		(pin "BUCKIN_SENSE" input
-			(at 154.94 57.15 180)
+			(at 276.86 57.15 180)
 			(uuid "ebad46c8-d5bb-4410-97b3-ace43ad898d6")
 			(effects
 				(font
@@ -4841,7 +4841,7 @@
 			)
 		)
 		(pin "BUCKOUT_SENSE" input
-			(at 154.94 59.69 180)
+			(at 276.86 59.69 180)
 			(uuid "42d2ac47-115c-4744-8809-eceeda566449")
 			(effects
 				(font
@@ -4859,7 +4859,7 @@
 		)
 	)
 	(sheet
-		(at 116.84 17.78)
+		(at 238.76 17.78)
 		(size 26.67 55.88)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4875,7 +4875,7 @@
 		)
 		(uuid "aad3f0e3-dcbe-4112-94dc-37caa60c9eb1")
 		(property "Sheetname" "MCU"
-			(at 116.84 17.0684 0)
+			(at 238.76 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +4884,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 116.84 74.2446 0)
+			(at 238.76 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +4893,7 @@
 			)
 		)
 		(pin "BUCKIN_SENSE" input
-			(at 143.51 57.15 0)
+			(at 265.43 57.15 0)
 			(uuid "63657eef-45cb-43ab-abb2-ddecb58075fc")
 			(effects
 				(font
@@ -4903,7 +4903,7 @@
 			)
 		)
 		(pin "BUCKOUT_SENSE" input
-			(at 143.51 59.69 0)
+			(at 265.43 59.69 0)
 			(uuid "076929f8-fbc3-4427-8674-5b2cb35e0a96")
 			(effects
 				(font
@@ -4913,7 +4913,7 @@
 			)
 		)
 		(pin "HS_SWITCH" input
-			(at 143.51 68.58 0)
+			(at 265.43 68.58 0)
 			(uuid "cf96a44f-f83f-4daa-a51d-8aa7d62f4edd")
 			(effects
 				(font
@@ -4923,7 +4923,7 @@
 			)
 		)
 		(pin "LS_SWITCH" input
-			(at 143.51 71.12 0)
+			(at 265.43 71.12 0)
 			(uuid "7e0bdb9e-a44d-4c82-800e-73763cdc4672")
 			(effects
 				(font
@@ -4933,7 +4933,7 @@
 			)
 		)
 		(pin "RFVA" input
-			(at 143.51 20.32 0)
+			(at 265.43 20.32 0)
 			(uuid "0361cd26-bbbf-4217-87ee-4fb271e6147c")
 			(effects
 				(font
@@ -4943,7 +4943,7 @@
 			)
 		)
 		(pin "RFVB" input
-			(at 143.51 22.86 0)
+			(at 265.43 22.86 0)
 			(uuid "9250516c-3511-4a42-b0b5-ccdf8f951a79")
 			(effects
 				(font
@@ -4953,7 +4953,7 @@
 			)
 		)
 		(pin "RF_ISENSE" input
-			(at 143.51 25.4 0)
+			(at 265.43 25.4 0)
 			(uuid "7d3891c0-d76c-4019-b7c6-0a7d489ff6a7")
 			(effects
 				(font
@@ -4963,7 +4963,7 @@
 			)
 		)
 		(pin "SOC_ISENSE" input
-			(at 143.51 27.94 0)
+			(at 265.43 27.94 0)
 			(uuid "e6460eed-12d7-4b48-ab2f-4a10c82aafec")
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 			)
 		)
 		(pin "EN_RF" input
-			(at 143.51 33.02 0)
+			(at 265.43 33.02 0)
 			(uuid "42bf9eac-89a2-4b15-b4e7-0131c6e6f349")
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 			)
 		)
 		(pin "PG_RF" input
-			(at 143.51 35.56 0)
+			(at 265.43 35.56 0)
 			(uuid "bb8d5aae-6fa2-45ed-a8fc-1278ef4e59d3")
 			(effects
 				(font
@@ -4993,7 +4993,7 @@
 			)
 		)
 		(pin "SYNC_RF" input
-			(at 143.51 38.1 0)
+			(at 265.43 38.1 0)
 			(uuid "2234ce0e-397a-462d-be87-0205a8b85c8e")
 			(effects
 				(font
@@ -5003,7 +5003,7 @@
 			)
 		)
 		(pin "EN_IBC" input
-			(at 143.51 66.04 0)
+			(at 265.43 66.04 0)
 			(uuid "f456e6bd-d524-4066-b44f-e6f9b1a502b2")
 			(effects
 				(font
@@ -5013,7 +5013,7 @@
 			)
 		)
 		(pin "EN_RF4" input
-			(at 143.51 43.18 0)
+			(at 265.43 43.18 0)
 			(uuid "204a12a1-8808-4e88-adb0-1d980bd6fcfb")
 			(effects
 				(font
@@ -5023,7 +5023,7 @@
 			)
 		)
 		(pin "PG_RF4" input
-			(at 143.51 45.72 0)
+			(at 265.43 45.72 0)
 			(uuid "c4a18de0-c4d0-4eda-a90f-d0e009b38803")
 			(effects
 				(font

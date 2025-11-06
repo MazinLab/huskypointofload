@@ -3,6 +3,48 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "dc11b653-4cd6-417e-9003-88c2fa4a3a66")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols)
+	(sheet
+		(at 54.61 50.8)
+		(size 62.23 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "85769b72-c112-4f91-8330-0686fe078b66")
+		(property "Sheetname" "LMK04828"
+			(at 54.61 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lmk04828.kicad_sch"
+			(at 54.61 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d5a7e3c4-49dd-4cc7-9d82-7c02320e6daf"
+					(page "17")
+				)
+			)
+		)
+	)
 )
