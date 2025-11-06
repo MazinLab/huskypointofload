@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(sheet
 		(at 54.61 50.8)
-		(size 62.23 43.18)
+		(size 29.21 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -31,12 +31,142 @@
 			)
 		)
 		(property "Sheetfile" "lmk04828.kicad_sch"
-			(at 54.61 94.5646 0)
+			(at 54.61 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BACKUP_DIS" input
+			(at 54.61 53.34 180)
+			(uuid "f2a09531-34a3-4e3e-953f-b12f81be31aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DCLK0n" input
+			(at 83.82 55.88 0)
+			(uuid "c5a57ca6-82ee-4bac-814d-88264c89557a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DCLK0p" input
+			(at 83.82 53.34 0)
+			(uuid "ccb247f2-74d2-4a10-8af9-5531e4873bdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LD1" input
+			(at 54.61 76.2 180)
+			(uuid "6686c0ae-4725-42a3-b06d-dae7f9b9d1a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LD2" input
+			(at 54.61 78.74 180)
+			(uuid "1ba9966c-c3c3-4c7f-befb-09044c9b28aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET" input
+			(at 54.61 55.88 180)
+			(uuid "402f0686-a281-4848-a650-6a60b48dab89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCK" input
+			(at 54.61 63.5 180)
+			(uuid "06331859-bcb0-4678-bc05-c419507031dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDCLK1n" input
+			(at 83.82 63.5 0)
+			(uuid "cab8e23b-809d-439c-b3ad-4a5ccc039af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDCLK1p" input
+			(at 83.82 60.96 0)
+			(uuid "80f58c6e-383f-4a1d-a41b-e3f59e045a0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDIO" input
+			(at 54.61 66.04 180)
+			(uuid "211ebcf6-8b43-405f-a47d-72736f2f934a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL0" input
+			(at 54.61 71.12 180)
+			(uuid "212e2bcb-6354-4ee7-ba5f-3a05d3b3b209")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL1" input
+			(at 54.61 73.66 180)
+			(uuid "f814f3d6-56c3-4077-a327-616bdb3f5d19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{CS}" input
+			(at 54.61 60.96 180)
+			(uuid "b1e83576-8139-48c6-82f4-715dd4a82a40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
