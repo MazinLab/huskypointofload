@@ -1709,8 +1709,8 @@
 		(uuid 0a89ebfd-63e9-4623-b3ec-ce2a9c8132e9)
 	)
 	(rectangle
-		(start 379.73 46.99)
-		(end 392.43 52.07)
+		(start 379.73 29.21)
+		(end 392.43 34.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -1721,8 +1721,8 @@
 		(uuid 0af64396-5f76-4911-974a-6773aaea231d)
 	)
 	(rectangle
-		(start 379.73 29.21)
-		(end 392.43 34.29)
+		(start 379.73 38.1)
+		(end 392.43 43.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -1731,6 +1731,30 @@
 			(type none)
 		)
 		(uuid 48ab5bea-6815-419e-b8b8-434dba63a389)
+	)
+	(rectangle
+		(start 379.73 73.66)
+		(end 392.43 78.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6cc814a9-75e5-4ea7-9e9e-9fc6a9073e5c)
+	)
+	(rectangle
+		(start 379.73 64.77)
+		(end 392.43 69.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81b4c313-9d5c-4031-aa04-8f96200ae2fe)
 	)
 	(rectangle
 		(start 339.09 29.21)
@@ -1746,7 +1770,7 @@
 	)
 	(rectangle
 		(start 308.61 17.78)
-		(end 401.32 72.39)
+		(end 406.4 83.82)
 		(stroke
 			(width 0)
 			(type default)
@@ -1757,8 +1781,8 @@
 		(uuid af97ef83-2feb-43dc-bdad-4b55e0352a31)
 	)
 	(rectangle
-		(start 359.41 29.21)
-		(end 372.11 34.29)
+		(start 359.41 38.1)
+		(end 372.11 43.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -1769,8 +1793,8 @@
 		(uuid dd0895c3-2f8c-4f68-8bbf-f087d5959908)
 	)
 	(rectangle
-		(start 379.73 38.1)
-		(end 392.43 43.18)
+		(start 379.73 46.99)
+		(end 392.43 52.07)
 		(stroke
 			(width 0)
 			(type default)
@@ -1804,6 +1828,18 @@
 		)
 		(uuid f73e65b3-394d-44f2-bcea-64b67158e68a)
 	)
+	(rectangle
+		(start 379.73 55.88)
+		(end 392.43 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb322b31-5365-455c-8fd2-e2338994fdbf)
+	)
 	(text "VDC"
 		(exclude_from_sim no)
 		(at 335.28 30.48 0)
@@ -1823,6 +1859,17 @@
 			)
 		)
 		(uuid "111ffda3-d8c1-433a-9447-7a79af09afaf")
+	)
+	(text "3.3LMXPLL"
+		(exclude_from_sim no)
+		(at 393.7 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a00cdcc-71c6-4cac-9c6f-e8a63310a197")
 	)
 	(text "48V"
 		(exclude_from_sim no)
@@ -1846,7 +1893,7 @@
 	)
 	(text "LT8625S uMOD\n12V->4V8A"
 		(exclude_from_sim no)
-		(at 365.76 32.004 0)
+		(at 365.76 40.894 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1863,6 +1910,16 @@
 			)
 		)
 		(uuid "3cd84839-b6e4-48ae-90e6-1fcc83001822")
+	)
+	(text "LT3045\n4V->3.3V0.8A"
+		(exclude_from_sim no)
+		(at 386.08 67.31 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "3cf30980-981c-4b21-8a25-4aa407686907")
 	)
 	(text "RFSoC\n"
 		(exclude_from_sim no)
@@ -1886,7 +1943,7 @@
 	)
 	(text "4V"
 		(exclude_from_sim no)
-		(at 375.92 30.48 0)
+		(at 375.92 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1906,7 +1963,7 @@
 	)
 	(text "LT3045\n4V->3.3V0.8A"
 		(exclude_from_sim no)
-		(at 386.08 40.64 0)
+		(at 386.08 49.53 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1936,7 +1993,7 @@
 	)
 	(text "LT3045\n4V->3.3V0.8A"
 		(exclude_from_sim no)
-		(at 386.08 32.004 0)
+		(at 386.08 40.894 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -1946,13 +2003,23 @@
 	)
 	(text "10V"
 		(exclude_from_sim no)
-		(at 396.24 48.006 0)
+		(at 396.24 30.226 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "a042ee5e-fe09-4227-aef6-27f6ef25d468")
+	)
+	(text "LT3045\n4V->3.3V0.8A"
+		(exclude_from_sim no)
+		(at 386.08 76.2 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "a86dba2e-780f-4308-b03b-bb496040b1ba")
 	)
 	(text "EPC23104 IBC\n48V->12V15A"
 		(exclude_from_sim no)
@@ -1964,13 +2031,14 @@
 		)
 		(uuid "aac343a0-db9d-437f-afe1-925116ca8a8b")
 	)
-	(text "3.3LMK"
+	(text "3.3LMKVCO"
 		(exclude_from_sim no)
-		(at 396.24 39.116 0)
+		(at 393.7 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "b4de58ed-a667-4e28-91b8-48ec98d30f94")
 	)
@@ -1984,6 +2052,39 @@
 		)
 		(uuid "b881b47e-e978-4156-aeb5-4fd53eb2f00f")
 	)
+	(text "3.3LMXDIG"
+		(exclude_from_sim no)
+		(at 393.7 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd3ea8c9-17b1-4d0a-9dba-538e6efa2cd8")
+	)
+	(text "3.3LMXVCO"
+		(exclude_from_sim no)
+		(at 393.7 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c698e477-6844-4d25-b817-be83fb184414")
+	)
+	(text "3.3LMKDIG"
+		(exclude_from_sim no)
+		(at 393.7 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c756552a-dd0e-43bd-8eb5-f87f069245c4")
+	)
 	(text "12VRF"
 		(exclude_from_sim no)
 		(at 355.6 30.48 0)
@@ -1996,7 +2097,7 @@
 	)
 	(text "LT3045\n12V->10V0.8A"
 		(exclude_from_sim no)
-		(at 386.08 49.53 0)
+		(at 386.08 31.75 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -2006,7 +2107,7 @@
 	)
 	(text "48V to 12V DCDC for RFSoC and RF Low Noise PSUs\n\nDesigned for 13A at 12V, RFSoC will take 10A.\nPassives rated for an EPC23102 for a 25A upgrade"
 		(exclude_from_sim no)
-		(at 308.356 75.438 0)
+		(at 309.88 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2025,15 +2126,15 @@
 		)
 		(uuid "d6467324-7ada-4e67-b1ba-b003cafea638")
 	)
-	(text "3.3LMX"
+	(text "LT3045\n4V->3.3V0.8A"
 		(exclude_from_sim no)
-		(at 396.24 30.48 0)
+		(at 386.08 58.42 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.635 0.635)
 			)
 		)
-		(uuid "fb60fe54-320d-4d3c-a63b-d9b238a68287")
+		(uuid "e6d4477f-070a-4ff5-bace-aeb28a19a9cd")
 	)
 	(text "VBUS"
 		(exclude_from_sim no)
@@ -2109,7 +2210,7 @@
 	)
 	(polyline
 		(pts
-			(xy 355.6 31.75) (xy 359.41 31.75)
+			(xy 355.6 40.64) (xy 359.41 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2209,13 +2310,23 @@
 	)
 	(polyline
 		(pts
-			(xy 355.6 49.53) (xy 375.92 49.53)
+			(xy 355.6 31.75) (xy 375.92 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c832c71-dc34-4adc-9abd-26ac8c852797")
+	)
+	(polyline
+		(pts
+			(xy 392.43 67.056) (xy 396.24 67.056)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c931287-13f9-4af3-8465-fb719323c4fd")
 	)
 	(polyline
 		(pts
@@ -2239,7 +2350,7 @@
 	)
 	(polyline
 		(pts
-			(xy 375.92 31.75) (xy 379.73 31.75)
+			(xy 375.92 40.64) (xy 379.73 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2256,6 +2367,16 @@
 			(type default)
 		)
 		(uuid "1fe8b36a-7a66-4747-8354-79ccac7a00f6")
+	)
+	(polyline
+		(pts
+			(xy 392.43 58.166) (xy 396.24 58.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211aba7e-ec3d-45e7-afb9-956b4f841e27")
 	)
 	(polyline
 		(pts
@@ -2316,6 +2437,16 @@
 			(type default)
 		)
 		(uuid "28fcd707-5c1c-4617-9818-edacc17303ac")
+	)
+	(polyline
+		(pts
+			(xy 375.92 58.42) (xy 375.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293a1e20-35b1-40bd-be71-a0f62bf93a13")
 	)
 	(wire
 		(pts
@@ -2549,6 +2680,16 @@
 	)
 	(polyline
 		(pts
+			(xy 375.92 58.42) (xy 379.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613d4b9b-1aa8-4623-91da-7445dbac429e")
+	)
+	(polyline
+		(pts
 			(xy 330.2 68.58) (xy 330.2 66.04)
 		)
 		(stroke
@@ -2556,6 +2697,16 @@
 			(type default)
 		)
 		(uuid "65dfa19a-c448-4ef5-9d5d-37da8de4e273")
+	)
+	(polyline
+		(pts
+			(xy 375.92 67.31) (xy 379.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690c477f-aa73-4027-8540-9e9bd50c2b41")
 	)
 	(polyline
 		(pts
@@ -2569,7 +2720,7 @@
 	)
 	(polyline
 		(pts
-			(xy 392.43 40.386) (xy 396.24 40.386)
+			(xy 392.43 49.276) (xy 396.24 49.276)
 		)
 		(stroke
 			(width 0)
@@ -2599,7 +2750,7 @@
 	)
 	(polyline
 		(pts
-			(xy 392.43 49.276) (xy 396.24 49.276)
+			(xy 392.43 31.496) (xy 396.24 31.496)
 		)
 		(stroke
 			(width 0)
@@ -2769,7 +2920,7 @@
 	)
 	(polyline
 		(pts
-			(xy 375.92 40.64) (xy 375.92 31.75)
+			(xy 375.92 49.53) (xy 375.92 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2849,13 +3000,13 @@
 	)
 	(polyline
 		(pts
-			(xy 355.6 49.53) (xy 355.6 40.64)
+			(xy 392.43 75.946) (xy 396.24 75.946)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b874efa3-d121-499b-a621-d1bb31ced5a4")
+		(uuid "b7c487b0-7946-474d-9664-ed928986c45c")
 	)
 	(wire
 		(pts
@@ -2879,7 +3030,7 @@
 	)
 	(polyline
 		(pts
-			(xy 375.92 40.64) (xy 379.73 40.64)
+			(xy 375.92 49.53) (xy 379.73 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2936,6 +3087,16 @@
 			(type default)
 		)
 		(uuid "c78948eb-3651-4c85-8c1f-f52848bbce1c")
+	)
+	(polyline
+		(pts
+			(xy 375.92 76.2) (xy 375.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c836eb18-7cb2-4f01-b4c3-82753c7e178e")
 	)
 	(wire
 		(pts
@@ -3049,13 +3210,23 @@
 	)
 	(polyline
 		(pts
-			(xy 375.92 49.53) (xy 379.73 49.53)
+			(xy 375.92 31.75) (xy 379.73 31.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7583b94-ae0c-4e34-9cb4-d1473fd42eb6")
+	)
+	(polyline
+		(pts
+			(xy 375.92 76.2) (xy 379.73 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacf351b-50a9-4181-a0af-db7a9e670198")
 	)
 	(polyline
 		(pts
@@ -3069,7 +3240,7 @@
 	)
 	(polyline
 		(pts
-			(xy 392.43 31.75) (xy 396.24 31.75)
+			(xy 392.43 40.64) (xy 396.24 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3089,7 +3260,7 @@
 	)
 	(polyline
 		(pts
-			(xy 372.11 31.75) (xy 375.92 31.75)
+			(xy 372.11 40.64) (xy 375.92 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3156,6 +3327,16 @@
 			(type default)
 		)
 		(uuid "fb67dd39-3891-420b-adb8-3bbeda67747b")
+	)
+	(polyline
+		(pts
+			(xy 375.92 67.31) (xy 375.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe09a9be-6f5e-44cf-8063-f8706bc33158")
 	)
 	(symbol
 		(lib_id "power:+VDC")

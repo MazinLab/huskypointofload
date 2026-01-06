@@ -1183,43 +1183,7 @@
 				)
 			)
 			(pin power_in line
-				(at -27.94 27.94 0)
-				(length 2.54)
-				(name "VREGVCO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -27.94 25.4 0)
-				(length 2.54)
-				(name "VREGVCO2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -27.94 22.86 0)
+				(at -27.94 20.32 0)
 				(length 2.54)
 				(name "VBIASVCO1"
 					(effects
@@ -1237,7 +1201,7 @@
 				)
 			)
 			(pin power_in line
-				(at -27.94 20.32 0)
+				(at -27.94 17.78 0)
 				(length 2.54)
 				(name "VBIASVCO2"
 					(effects
@@ -1255,7 +1219,7 @@
 				)
 			)
 			(pin power_in line
-				(at -27.94 17.78 0)
+				(at -27.94 15.24 0)
 				(length 2.54)
 				(name "VBIASVARAC"
 					(effects
@@ -1861,6 +1825,60 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -27.94 27.94 0)
+				(length 2.54)
+				(name "VREGVCO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -27.94 25.4 0)
+				(length 2.54)
+				(name "VREFVCO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -27.94 22.86 0)
+				(length 2.54)
+				(name "VREFVCO2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
 					(effects
 						(font
 							(size 1.27 1.27)

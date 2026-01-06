@@ -672,7 +672,7 @@
     ],
     [
       "1008e2fb-3ddd-4ae6-bc4d-94ec83ca7d40",
-      "Linear POL LMK"
+      "Linear POL LMK VCO"
     ],
     [
       "c7be17f0-832c-4fd9-a896-8c518f3eba26",
@@ -684,7 +684,7 @@
     ],
     [
       "94144f86-6c10-4bf6-8112-48c8c30ee72b",
-      "Linear POL LMX"
+      "Linear POL LMX DIG"
     ],
     [
       "f8e9761d-04af-4a91-85c5-fba55f506320",
@@ -732,7 +732,7 @@
     ],
     [
       "50ae3752-db9d-4a02-8d1a-7dc42631fbbb",
-      "Linear POL LMK1"
+      "Linear POL LMK DIG"
     ],
     [
       "9e4d1a81-b393-42f3-a0e8-2a988fcfd478",
@@ -773,6 +773,18 @@
     [
       "5f4c284c-f727-43ab-96b8-b4d6a67a8f9a",
       "LF Balun Output 11"
+    ],
+    [
+      "9335aab9-c99d-4cf6-91df-da37b92248b1",
+      "LMX2594"
+    ],
+    [
+      "d8876dcd-55d8-48dc-90d2-24f2432b0b62",
+      "Linear POL LMX BUF"
+    ],
+    [
+      "e10d4299-7359-4ea6-9cc2-1f1cd0c6203d",
+      "Linear POL LMX PLL"
     ]
   ],
   "text_variables": {}
