@@ -684,7 +684,7 @@
     ],
     [
       "94144f86-6c10-4bf6-8112-48c8c30ee72b",
-      "Linear POL LMX DIG"
+      "Linear POL LMX"
     ],
     [
       "f8e9761d-04af-4a91-85c5-fba55f506320",
@@ -783,8 +783,16 @@
       "Linear POL LMX BUF"
     ],
     [
-      "e10d4299-7359-4ea6-9cc2-1f1cd0c6203d",
-      "Linear POL LMX PLL"
+      "e3d2a3c9-11ca-49ab-9ff0-093dc0a5a120",
+      "LMX Matching Network A"
+    ],
+    [
+      "10fdba5e-5982-4136-ba99-4bb4d3a9fe66",
+      "LMX Matching Network B"
+    ],
+    [
+      "e51e609f-c5bf-403c-8ca6-81342f1b9050",
+      "LMX Single Ended Matching"
     ]
   ],
   "text_variables": {}
