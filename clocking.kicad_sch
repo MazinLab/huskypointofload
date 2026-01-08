@@ -3587,78 +3587,6 @@
 		)
 	)
 	(sheet
-		(at 127 92.71)
-		(size 33.02 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "10fdba5e-5982-4136-ba99-4bb4d3a9fe66")
-		(property "Sheetname" "LMX Matching Network B"
-			(at 127 91.9984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "lmxmatch.kicad_sch"
-			(at 127 100.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "IN_{N}" input
-			(at 127 97.79 180)
-			(uuid "41a87638-0af6-4810-80f7-f191ae26258e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IN_{P}" input
-			(at 127 95.25 180)
-			(uuid "4839ab0e-8787-4438-b16a-b0fd4246eb31")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUT" input
-			(at 160.02 96.52 0)
-			(uuid "8c48a75c-5bf6-4c4d-8450-971de9792977")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d5a7e3c4-49dd-4cc7-9d82-7c02320e6daf"
-					(page "32")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 66.04 27.94)
 		(size 50.8 30.48)
 		(exclude_from_sim no)
@@ -4027,8 +3955,8 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e3d2a3c9-11ca-49ab-9ff0-093dc0a5a120")
-		(property "Sheetname" "LMX Matching Network A"
+		(uuid "e51e609f-c5bf-403c-8ca6-81342f1b9050")
+		(property "Sheetname" "LMX Single Ended Matching A"
 			(at 127 75.4884 0)
 			(effects
 				(font
@@ -4037,7 +3965,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "lmxmatch.kicad_sch"
+		(property "Sheetfile" "lmxmatchsingle.kicad_sch"
 			(at 127 84.4046 0)
 			(effects
 				(font
@@ -4048,7 +3976,7 @@
 		)
 		(pin "IN_{N}" input
 			(at 127 81.28 180)
-			(uuid "9849d5df-6398-44ce-981b-3f2c3470ac14")
+			(uuid "7d6e213f-3f25-4721-95b1-3b985f542c3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +3986,7 @@
 		)
 		(pin "IN_{P}" input
 			(at 127 78.74 180)
-			(uuid "94476c45-24a9-4c8c-9633-ba16b81797d6")
+			(uuid "c3cc6b2c-003b-491b-ba31-dfa092f1717e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +3996,7 @@
 		)
 		(pin "OUT" input
 			(at 160.02 80.01 0)
-			(uuid "622d950c-ef7c-451c-a793-ca99e6eaeefe")
+			(uuid "83b95a66-4bc8-46a4-84d6-0c3f5c63de5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,13 +4007,13 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d5a7e3c4-49dd-4cc7-9d82-7c02320e6daf"
-					(page "31")
+					(page "33")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 127 109.22)
+		(at 127 92.71)
 		(size 33.02 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4099,9 +4027,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "e51e609f-c5bf-403c-8ca6-81342f1b9050")
-		(property "Sheetname" "LMX Single Ended Matching"
-			(at 127 108.5084 0)
+		(uuid "f37470a5-aa7e-4685-99e3-8b4186c25acc")
+		(property "Sheetname" "LMX Single Ended Matching B"
+			(at 127 91.9984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,7 +4038,7 @@
 			)
 		)
 		(property "Sheetfile" "lmxmatchsingle.kicad_sch"
-			(at 127 117.4246 0)
+			(at 127 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,8 +4047,8 @@
 			)
 		)
 		(pin "IN_{N}" input
-			(at 127 114.3 180)
-			(uuid "7d6e213f-3f25-4721-95b1-3b985f542c3f")
+			(at 127 97.79 180)
+			(uuid "88d1f422-22e5-4800-b033-cfea1afb3994")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,8 +4057,8 @@
 			)
 		)
 		(pin "IN_{P}" input
-			(at 127 111.76 180)
-			(uuid "c3cc6b2c-003b-491b-ba31-dfa092f1717e")
+			(at 127 95.25 180)
+			(uuid "dafe9230-5789-4bd5-ba2e-bef9cc05051a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,8 +4067,8 @@
 			)
 		)
 		(pin "OUT" input
-			(at 160.02 113.03 0)
-			(uuid "83b95a66-4bc8-46a4-84d6-0c3f5c63de5f")
+			(at 160.02 96.52 0)
+			(uuid "fd7b807f-404a-4b45-b1c8-4e7e423db113")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4079,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d5a7e3c4-49dd-4cc7-9d82-7c02320e6daf"
-					(page "33")
+					(page "31")
 				)
 			)
 		)

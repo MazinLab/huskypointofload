@@ -783,16 +783,24 @@
       "Linear POL LMX BUF"
     ],
     [
-      "e3d2a3c9-11ca-49ab-9ff0-093dc0a5a120",
-      "LMX Matching Network A"
+      "f37470a5-aa7e-4685-99e3-8b4186c25acc",
+      "LMX Single Ended Matching B"
     ],
     [
-      "10fdba5e-5982-4136-ba99-4bb4d3a9fe66",
-      "LMX Matching Network B"
+      "1f40507f-5f9f-444c-b99e-42dfd163ee6e",
+      "Switching TX 6V"
     ],
     [
       "e51e609f-c5bf-403c-8ca6-81342f1b9050",
-      "LMX Single Ended Matching"
+      "LMX Single Ended Matching A"
+    ],
+    [
+      "ff4f07c4-e191-4e61-a9ef-d50cbe59545f",
+      "TX Mixer"
+    ],
+    [
+      "ac278918-a47b-404c-8a96-6090a2d8d859",
+      "HMC788A"
     ]
   ],
   "text_variables": {}

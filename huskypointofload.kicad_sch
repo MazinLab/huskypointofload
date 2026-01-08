@@ -2671,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 95.25) (xy 171.45 97.79)
+			(xy 331.47 29.21) (xy 331.47 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3271,7 +3271,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 177.8 87.63)
+			(xy 331.47 21.59) (xy 325.12 21.59)
 		)
 		(stroke
 			(width 0)
@@ -3371,7 +3371,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 171.45 90.17)
+			(xy 331.47 21.59) (xy 331.47 24.13)
 		)
 		(stroke
 			(width 0)
@@ -4450,7 +4450,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 97.79 0)
+		(at 331.47 31.75 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4459,7 +4460,7 @@
 		(fields_autoplaced yes)
 		(uuid "9127bcb1-e2d4-4ba9-b7b0-069d5dd2240f")
 		(property "Reference" "#PWR0263"
-			(at 171.45 104.14 0)
+			(at 331.47 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4469,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 102.87 0)
+			(at 331.47 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 97.79 0)
+			(at 331.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 97.79 0)
+			(at 331.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 97.79 0)
+			(at 331.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5159,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 171.45 92.71 270)
+		(at 331.47 26.67 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5166,7 +5168,7 @@
 		(dnp no)
 		(uuid "f1bf5fc6-3129-4f20-874b-ab2fed53c849")
 		(property "Reference" "J39"
-			(at 168.91 90.9203 90)
+			(at 334.01 24.8803 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5177,7 @@
 			)
 		)
 		(property "Value" "10MHZ"
-			(at 168.91 93.4603 90)
+			(at 334.01 27.4203 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 92.71 0)
+			(at 331.47 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 92.71 0)
+			(at 331.47 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5204,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 171.45 92.71 0)
+			(at 331.47 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,8 +5850,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 83.82)
-		(size 31.75 7.62)
+		(at 298.45 17.78)
+		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5864,7 +5866,7 @@
 		)
 		(uuid "afb00c68-0259-43f8-a90b-9aecb9e48121")
 		(property "Sheetname" "10MHz Dist"
-			(at 177.8 83.1084 0)
+			(at 298.45 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5875,7 @@
 			)
 		)
 		(property "Sheetfile" "dist10.kicad_sch"
-			(at 177.8 92.0246 0)
+			(at 298.45 25.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,13 +5884,13 @@
 			)
 		)
 		(pin "INPUT" input
-			(at 177.8 87.63 180)
+			(at 325.12 21.59 0)
 			(uuid "7f12a250-d0dc-4513-99eb-edde699304ff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -6271,6 +6273,98 @@
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0"
 					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 83.82)
+		(size 25.4 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff4f07c4-e191-4e61-a9ef-d50cbe59545f")
+		(property "Sheetname" "TX Mixer"
+			(at 177.8 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hmc525.kicad_sch"
+			(at 177.8 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I" input
+			(at 203.2 86.36 0)
+			(uuid "2c98c22a-5897-4530-b054-8d82b957541f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LO" input
+			(at 177.8 86.36 180)
+			(uuid "784fd0d0-0ea5-4521-9901-d5dc3f87e71d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q" input
+			(at 203.2 88.9 0)
+			(uuid "53553ee2-510e-4d65-9eaf-c562a96eb179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RF" input
+			(at 177.8 88.9 180)
+			(uuid "48f85acd-28f2-460e-8d70-54fd76ecfe52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "6V" input
+			(at 177.8 91.44 180)
+			(uuid "d2447d82-2a7e-47ef-a0ec-e490e0fb1dfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0"
+					(page "34")
 				)
 			)
 		)
