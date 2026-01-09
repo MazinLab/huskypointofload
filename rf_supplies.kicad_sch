@@ -10012,6 +10012,48 @@
 		)
 	)
 	(sheet
+		(at 309.88 68.58)
+		(size 26.67 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10dd7d59-bb9c-4e91-a34a-d5a9ef41936e")
+		(property "Sheetname" "OP Amp Supply"
+			(at 309.88 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "splitrail.kicad_sch"
+			(at 309.88 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/28dccbc8-62a2-4750-b12f-4e220cef19bd"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 309.88 25.4)
 		(size 26.67 22.86)
 		(exclude_from_sim no)
