@@ -3565,6 +3565,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 71.12) (xy 309.88 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8afd5ad3-bb1d-4f84-8f59-92abb5aa06fe")
+	)
+	(wire
+		(pts
 			(xy 251.46 123.19) (xy 248.92 123.19)
 		)
 		(stroke
@@ -4142,6 +4152,16 @@
 			(type default)
 		)
 		(uuid "e32256dc-d201-4a5c-bab7-ac92600d5448")
+	)
+	(wire
+		(pts
+			(xy 303.53 68.58) (xy 303.53 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e431de41-4af1-4709-bc83-85d50f6d1ef8")
 	)
 	(wire
 		(pts
@@ -7235,6 +7255,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 303.53 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "755008a0-2f0c-4b6c-92a0-48ba49db55d2")
+		(property "Reference" "#PWR0151"
+			(at 303.53 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_RF"
+			(at 303.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 303.53 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "413efefe-deef-49e6-b0e4-f60c681e47aa")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/28dccbc8-62a2-4750-b12f-4e220cef19bd"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 142.24 69.85 0)
 		(unit 1)
@@ -10043,6 +10129,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 309.88 71.12 180)
+			(uuid "5806723f-8ccb-41ca-ae7b-a2882985563d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
