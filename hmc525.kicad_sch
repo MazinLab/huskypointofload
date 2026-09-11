@@ -893,16 +893,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Power Locally"
-		(exclude_from_sim no)
-		(at 55.118 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "37f4cba5-a98e-4947-8f80-1e48dd0df015")
-	)
 	(junction
 		(at 148.59 167.64)
 		(diameter 0)

@@ -6708,7 +6708,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 97.79) (xy 95.25 97.79)
+			(xy -6.35 88.9) (xy -1.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6818,7 +6818,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 95.25) (xy 95.25 95.25)
+			(xy -6.35 86.36) (xy -1.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8432,7 +8432,7 @@
 	)
 	(hierarchical_label "SEL1"
 		(shape input)
-		(at 95.25 97.79 0)
+		(at -1.27 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8443,7 +8443,7 @@
 	)
 	(hierarchical_label "SEL0"
 		(shape input)
-		(at 95.25 95.25 0)
+		(at -1.27 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
