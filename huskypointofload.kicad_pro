@@ -690,7 +690,7 @@
         "uuid": "eb9c972b-d134-41da-be97-ece3f463f7e0"
       }
     ],
-    "used_designators": "FB1,L1-13,Y1-2,#PWR1-265,NT1,SW1-2,J1-39,C1-219,D1-11,U1-31,TR1-4,Q1,F1,TP1-23,R1-217",
+    "used_designators": "L1-13,Y1-2,#PWR1-265,D1-11,NT1,J1-39,Q1,SW1-2,FB1,C1-219,U1-31,F1,TP1-23,TR1-4,R1-217",
     "variants": []
   },
   "sheets": [
@@ -776,6 +776,10 @@
     ],
     [
       "6dfaf35c-5b7a-4e83-bfaa-7ec9bc4ec973",
+      "Linear POL LMK VCO"
+    ],
+    [
+      "0e8db5f7-1caf-4443-8e3e-8e357027b045",
       "Linear POL LMK VCO"
     ],
     [
