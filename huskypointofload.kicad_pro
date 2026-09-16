@@ -690,7 +690,7 @@
         "uuid": "eb9c972b-d134-41da-be97-ece3f463f7e0"
       }
     ],
-    "used_designators": "TP1-27,F1,R1-217,TR1-4,Q1,Y1-2,#PWR1-269,FB1,L1-13,C1-230,U1-35,D1-11,NT1,SW1-2,J1-39",
+    "used_designators": "TP1-27,F1,R1-233,TR1-4,Q1,Y1-3,#PWR1-295,D1-11,FB1,C1-232,U1-41,SW1-3,L1-13,NT1,J1-44",
     "variants": []
   },
   "sheets": [
@@ -705,6 +705,14 @@
     [
       "4a05f17e-fa74-4482-8e9b-8a8eeb2083bd",
       "Linear POL LMK DIG"
+    ],
+    [
+      "cb2bed6b-53a5-4f58-b70f-ffa107cbb07d",
+      "Monitor Path"
+    ],
+    [
+      "3680bb14-ef6d-491f-878c-9613c4989b3b",
+      "HMC788A"
     ],
     [
       "00e3f35a-bd0b-4623-9aac-59829f8e630a",
@@ -729,10 +737,6 @@
     [
       "85769b72-c112-4f91-8330-0686fe078b66",
       "LMK04828"
-    ],
-    [
-      "1af3ca17-718e-476f-b7ed-6025ec62646b",
-      "LF Balun Output 8"
     ],
     [
       "0d41e017-a9b8-4600-a64c-68809139637e",
@@ -763,10 +767,6 @@
       "HF Out 3"
     ],
     [
-      "70011384-0518-423b-b990-ef4279fce062",
-      "HF Out 4"
-    ],
-    [
       "6dfaf35c-5b7a-4e83-bfaa-7ec9bc4ec973",
       "Linear POL LMK VCO"
     ],
@@ -777,18 +777,6 @@
     [
       "e3b9a158-a3aa-4eeb-b09d-59c46f782af5",
       "Recieve Chain"
-    ],
-    [
-      "39eea210-7131-4cf1-851c-9677dedbb5bb",
-      "HF Out 5"
-    ],
-    [
-      "9e4d1a81-b393-42f3-a0e8-2a988fcfd478",
-      "HF Out 6"
-    ],
-    [
-      "c349659e-5775-43d5-adea-665b15df1d0a",
-      "HF Out 7"
     ],
     [
       "9335aab9-c99d-4cf6-91df-da37b92248b1",
