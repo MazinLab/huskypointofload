@@ -690,7 +690,7 @@
         "uuid": "eb9c972b-d134-41da-be97-ece3f463f7e0"
       }
     ],
-    "used_designators": "L1-13,Y1-2,#PWR1-265,D1-11,NT1,J1-39,Q1,SW1-2,FB1,C1-219,U1-31,F1,TP1-23,TR1-4,R1-217",
+    "used_designators": "TP1-27,F1,R1-217,TR1-4,Q1,Y1-2,#PWR1-269,FB1,L1-13,C1-230,U1-35,D1-11,NT1,SW1-2,J1-39",
     "variants": []
   },
   "sheets": [
@@ -705,14 +705,6 @@
     [
       "4a05f17e-fa74-4482-8e9b-8a8eeb2083bd",
       "Linear POL LMK DIG"
-    ],
-    [
-      "c7be17f0-832c-4fd9-a896-8c518f3eba26",
-      "House Keeping Supply 5V"
-    ],
-    [
-      "ba0a2c31-2b64-4688-8bc7-8fc63c7eca77",
-      "House Keeping Supply 3.3V"
     ],
     [
       "00e3f35a-bd0b-4623-9aac-59829f8e630a",
@@ -823,12 +815,24 @@
       "RF Switching 7V"
     ],
     [
+      "4dc40458-c6bd-4015-9ff1-a0684a39a7fb",
+      "Linear POL LMK VCO1"
+    ],
+    [
       "ff4f07c4-e191-4e61-a9ef-d50cbe59545f",
       "RX Mixer"
     ],
     [
       "ac278918-a47b-404c-8a96-6090a2d8d859",
       "HMC788A"
+    ],
+    [
+      "fd7da1db-3fdb-4de9-b980-d00c0fcb9f91",
+      "Linear POL LMK VCO2"
+    ],
+    [
+      "ff11547f-04ea-462c-b501-e564f5dcf459",
+      "RF Switching PSU"
     ]
   ],
   "text_variables": {},
