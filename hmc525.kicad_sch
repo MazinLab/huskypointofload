@@ -240,7 +240,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF:PAT1220-C-6DB"
+		(symbol "RF:PAT1220-C-1DB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -256,7 +256,7 @@
 					)
 				)
 			)
-			(property "Value" "PAT1220-C-6DB"
+			(property "Value" "PAT1220-C-1DB"
 				(at 5.08 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -288,7 +288,7 @@
 					)
 				)
 			)
-			(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 6dB Attenuation, PAT1220"
+			(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 1dB Attenuation, PAT1220"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -321,7 +321,7 @@
 					)
 				)
 			)
-			(symbol "PAT1220-C-6DB_0_1"
+			(symbol "PAT1220-C-1DB_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -412,7 +412,7 @@
 					)
 				)
 			)
-			(symbol "PAT1220-C-6DB_1_1"
+			(symbol "PAT1220-C-1DB_1_1"
 				(rectangle
 					(start -4.572 -1.778)
 					(end -3.302 1.27)
@@ -1235,7 +1235,7 @@
 		(uuid "f7a19287-be43-4606-95fd-f47063335d1f")
 	)
 	(symbol
-		(lib_id "RF:PAT1220-C-6DB")
+		(lib_id "RF:PAT1220-C-1DB")
 		(at 118.11 167.64 0)
 		(unit 1)
 		(body_style 1)
@@ -1244,8 +1244,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3c18d3a7-d493-49f6-9752-46c241db2769")
-		(property "Reference" "U1"
+		(fields_autoplaced yes)
+		(uuid "0fd22583-ed2c-49fe-8b77-3eb929fbc44e")
+		(property "Reference" "U?"
 			(at 118.11 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1255,7 +1256,7 @@
 				)
 			)
 		)
-		(property "Value" "PAT1220-C-6DB"
+		(property "Value" "PAT1220-C-1DB"
 			(at 118.11 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1287,7 +1288,7 @@
 				)
 			)
 		)
-		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 6dB Attenuation, PAT1220"
+		(property "Description" "10GHz RF Attenuator, 50ohm Matched Impedance, 1dB Attenuation, PAT1220"
 			(at 118.11 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -1298,23 +1299,23 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "93556d89-6d9f-4ce9-8aaf-db76cf77b2b0")
-		)
 		(pin "3"
-			(uuid "8c1e41cd-0c88-4041-bdd9-28b3f868ef7d")
+			(uuid "c5c14562-a2f2-4122-b25e-989e62e8cea3")
 		)
 		(pin "1"
-			(uuid "78b36710-b064-4ce5-89b7-dfc67a4f9528")
+			(uuid "3d80e565-879e-4056-97d3-769c3bfe7a14")
+		)
+		(pin "2"
+			(uuid "90bce970-d51b-443a-9836-6a8e731dbaf6")
 		)
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "U37")
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -1422,7 +1423,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "U38")
+					(reference "U41")
 					(unit 1)
 				)
 			)
@@ -1440,7 +1441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5569b02b-157f-459b-8a42-98385d869d8a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR014"
 			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -1500,11 +1501,11 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "#PWR011")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "#PWR0260")
+					(reference "#PWR0298")
 					(unit 1)
 				)
 			)
@@ -1522,7 +1523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c659304-d9a4-45dc-ac38-92dd7ada6d84")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 118.11 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -1582,11 +1583,11 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "#PWR0259")
+					(reference "#PWR0297")
 					(unit 1)
 				)
 			)
@@ -1672,7 +1673,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "TP21")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -1690,7 +1691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccbdd32f-0d00-47f0-9a80-eb3c9049f724")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR015"
 			(at 189.23 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -1750,11 +1751,11 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "#PWR012")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "#PWR0261")
+					(reference "#PWR0299")
 					(unit 1)
 				)
 			)
@@ -1841,7 +1842,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "TP22")
+					(reference "TP23")
 					(unit 1)
 				)
 			)

@@ -690,7 +690,7 @@
         "uuid": "eb9c972b-d134-41da-be97-ece3f463f7e0"
       }
     ],
-    "used_designators": "TP1-27,F1,R1-233,TR1-4,Q1,Y1-3,#PWR1-295,D1-11,FB1,C1-232,U1-41,SW1-3,L1-13,NT1,J1-44",
+    "used_designators": "TP1-28,F1,R1-263,TR1-4,Q1,Y1-3,#PWR1-325,D1-11,FB1,C1-283,U1-44,SW1-3,L1-13,NT1,J1-45",
     "variants": []
   },
   "sheets": [
@@ -739,6 +739,10 @@
       "LMK04828"
     ],
     [
+      "94ddb576-4973-42fb-96b2-78bcceaa8e2a",
+      "LMX2595"
+    ],
+    [
       "0d41e017-a9b8-4600-a64c-68809139637e",
       "LF Balun Output 9"
     ],
@@ -767,6 +771,10 @@
       "HF Out 3"
     ],
     [
+      "5c40f308-0bba-4224-b9e7-7d89f767d3e8",
+      "Linear POL LMX BUF"
+    ],
+    [
       "6dfaf35c-5b7a-4e83-bfaa-7ec9bc4ec973",
       "Linear POL LMK VCO"
     ],
@@ -777,6 +785,18 @@
     [
       "e3b9a158-a3aa-4eeb-b09d-59c46f782af5",
       "Recieve Chain"
+    ],
+    [
+      "00e3f35a-bd0b-4623-9aac-59829f8e630a",
+      "Linear POL LMX"
+    ],
+    [
+      "87e75886-8a53-478a-8ff0-cf0e99af78d2",
+      "LMX Single Ended Matching A1"
+    ],
+    [
+      "a6897837-f484-4895-9d17-f1bafbc2e4e6",
+      "MCU Power"
     ],
     [
       "9335aab9-c99d-4cf6-91df-da37b92248b1",
