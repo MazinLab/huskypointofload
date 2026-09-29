@@ -521,6 +521,237 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RF_Filter:LFCN-8440"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FL"
+				(at 0 10.795 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LFCN-8440"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206-4"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-8440+.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8440MHz 50 Ohm Passive Low Pass Filter, FV1206-4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Mini-Circuits low pass filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Filter*Mini?Circuits*FV1206?4*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LFCN-8440_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.81 2.54)
+					(mid -1.905 3.5595)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.81 -1.27)
+					(mid -1.905 -0.2505)
+					(end 0 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 2.54)
+					(mid 1.905 1.5205)
+					(end 0 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 -1.27)
+					(mid 1.905 -2.2895)
+					(end 0 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LFCN-8440_1_1"
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "huskylib:HMC525ALC4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -931,6 +1162,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 165.1) (xy 107.95 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0637c278-e2d6-4b6c-a018-fd62826d8bab")
+	)
+	(wire
+		(pts
 			(xy 179.07 177.8) (xy 179.07 180.34)
 		)
 		(stroke
@@ -938,6 +1179,16 @@
 			(type default)
 		)
 		(uuid "19f1918e-e976-41cb-bf95-d85ddb3ce0bd")
+	)
+	(wire
+		(pts
+			(xy 92.71 175.26) (xy 92.71 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bfaf821-3610-41d7-8c5b-0269ae5ee62f")
 	)
 	(wire
 		(pts
@@ -1071,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 165.1) (xy 77.47 165.1)
+			(xy 41.91 165.1) (xy 49.53 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +1342,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 161.29) (xy 77.47 161.29)
+			(xy 41.91 161.29) (xy 49.53 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1422,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 165.1) (xy 107.95 165.1)
+			(xy 74.93 165.1) (xy 82.55 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1190,9 +1441,9 @@
 		)
 		(uuid "49b66c37-0a4b-4d0b-8d01-da8f154e0a3b")
 	)
-	(hierarchical_label "6V"
+	(hierarchical_label "5V"
 		(shape input)
-		(at 69.85 161.29 180)
+		(at 41.91 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1225,7 +1476,7 @@
 	)
 	(hierarchical_label "LO"
 		(shape input)
-		(at 69.85 165.1 180)
+		(at 41.91 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1233,6 +1484,88 @@
 			(justify right)
 		)
 		(uuid "f7a19287-be43-4606-95fd-f47063335d1f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fd1bda3-756b-4a7d-8215-77ceea3c9822")
+		(property "Reference" "#PWR015"
+			(at 92.71 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55ffe094-0f8d-4f95-b936-ffb6d47fd908")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "RF:PAT1220-C-1DB")
@@ -1246,7 +1579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fd22583-ed2c-49fe-8b77-3eb929fbc44e")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 118.11 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1311,11 +1644,11 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "U?")
+					(reference "U41")
 					(unit 1)
 				)
 			)
@@ -1423,7 +1756,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "U41")
+					(reference "U42")
 					(unit 1)
 				)
 			)
@@ -1441,7 +1774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5569b02b-157f-459b-8a42-98385d869d8a")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -1501,11 +1834,11 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "#PWR0298")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -1523,7 +1856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c659304-d9a4-45dc-ac38-92dd7ada6d84")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 118.11 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -1583,11 +1916,11 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "#PWR0297")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -1691,7 +2024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccbdd32f-0d00-47f0-9a80-eb3c9049f724")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 189.23 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -1751,11 +2084,11 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
-					(reference "#PWR0299")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -1848,8 +2181,98 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "RF_Filter:LFCN-8440")
+		(at 92.71 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcb9c36c-04e1-4105-8a80-63ce2fb0d804")
+		(property "Reference" "FL1"
+			(at 92.71 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LFCN-8440"
+			(at 92.71 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206-4"
+			(at 92.71 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-8440+.pdf"
+			(at 92.71 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "8440MHz 50 Ohm Passive Low Pass Filter, FV1206-4"
+			(at 92.71 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c11b8bbb-c461-4908-93d0-a945dc458e28")
+		)
+		(pin "2"
+			(uuid "b9c6f00c-f5fe-4e19-90b7-92793a542db7")
+		)
+		(pin "4"
+			(uuid "c946b4d9-e51a-44e0-b30c-254990ea803c")
+		)
+		(pin "3"
+			(uuid "e36826ac-1ab8-44b3-847a-c17b7c2d1e63")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281"
+					(reference "FL1")
+					(unit 1)
+				)
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f"
+					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 77.47 158.75)
+		(at 49.53 158.75)
 		(size 25.4 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1865,7 +2288,7 @@
 		)
 		(uuid "ac278918-a47b-404c-8a96-6090a2d8d859")
 		(property "Sheetname" "HMC788A"
-			(at 77.47 158.0384 0)
+			(at 49.53 158.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1876,7 +2299,7 @@
 			)
 		)
 		(property "Sheetfile" "hmc788.kicad_sch"
-			(at 77.47 172.0346 0)
+			(at 49.53 172.0346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1886,18 +2309,8 @@
 				(justify left top)
 			)
 		)
-		(pin "6VIN" input
-			(at 77.47 161.29 180)
-			(uuid "5de45522-be0f-4fbb-9dda-6344a798251a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RF_{IN}" input
-			(at 77.47 165.1 180)
+			(at 49.53 165.1 180)
 			(uuid "51debfa5-5ee2-440a-82e4-de808fe38a61")
 			(effects
 				(font
@@ -1907,13 +2320,23 @@
 			)
 		)
 		(pin "RF_{OUT}" input
-			(at 102.87 165.1 0)
+			(at 74.93 165.1 0)
 			(uuid "6dd98003-6698-40de-b789-f3674df781ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5VIN" input
+			(at 49.53 161.29 180)
+			(uuid "00da6277-7d1e-4c91-9b03-644964af364f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

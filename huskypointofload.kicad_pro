@@ -690,7 +690,7 @@
         "uuid": "eb9c972b-d134-41da-be97-ece3f463f7e0"
       }
     ],
-    "used_designators": "TP1-28,F1,R1-263,TR1-4,Q1,Y1-3,#PWR1-325,D1-11,FB1,C1-283,U1-44,SW1-3,L1-13,NT1,J1-45",
+    "used_designators": "FL1-2,Q1,F1,TP1-28,Y1-3,D1-11,#PWR1-333,R1-274,FB1,C1-300,U1-45,SW1-3,TR1-4,L1-14,NT1,J1-46",
     "variants": []
   },
   "sheets": [
@@ -776,7 +776,7 @@
     ],
     [
       "6dfaf35c-5b7a-4e83-bfaa-7ec9bc4ec973",
-      "Linear POL LMK VCO"
+      "Linear LO Drive"
     ],
     [
       "0e8db5f7-1caf-4443-8e3e-8e357027b045",
@@ -824,7 +824,7 @@
     ],
     [
       "4dc40458-c6bd-4015-9ff1-a0684a39a7fb",
-      "Linear POL LMK VCO1"
+      "Linear POL AMP1"
     ],
     [
       "ff4f07c4-e191-4e61-a9ef-d50cbe59545f",
@@ -836,7 +836,7 @@
     ],
     [
       "fd7da1db-3fdb-4de9-b980-d00c0fcb9f91",
-      "Linear POL LMK VCO2"
+      "Linear POL LMK AMP2"
     ],
     [
       "ff11547f-04ea-462c-b501-e564f5dcf459",

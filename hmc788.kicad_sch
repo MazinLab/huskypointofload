@@ -845,7 +845,7 @@
 		)
 		(uuid "fd4ea675-61d8-466c-b6be-a44a97a68be7")
 	)
-	(hierarchical_label "6VIN"
+	(hierarchical_label "5VIN"
 		(shape input)
 		(at 152.4 72.39 90)
 		(effects
@@ -890,7 +890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6533ffbb-df38-4ee2-9486-8c48ea06bc33")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR027"
 			(at 171.45 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -950,15 +950,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
-					(reference "#PWR023")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR085")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR0301")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -1052,7 +1052,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "U42")
+					(reference "U43")
 					(unit 1)
 				)
 			)
@@ -1147,11 +1147,11 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C63")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C255")
+					(reference "C270")
 					(unit 1)
 				)
 			)
@@ -1236,11 +1236,11 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C65")
+					(reference "C67")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C257")
+					(reference "C272")
 					(unit 1)
 				)
 			)
@@ -1330,7 +1330,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "L11")
+					(reference "L12")
 					(unit 1)
 				)
 			)
@@ -1415,11 +1415,11 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C66")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C258")
+					(reference "C273")
 					(unit 1)
 				)
 			)
@@ -1437,7 +1437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cef006ca-cb19-4523-bb14-fdc41a78716b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR026"
 			(at 139.7 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1497,15 +1497,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
-					(reference "#PWR022")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR084")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR0300")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -1599,11 +1599,11 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C64")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C256")
+					(reference "C271")
 					(unit 1)
 				)
 			)

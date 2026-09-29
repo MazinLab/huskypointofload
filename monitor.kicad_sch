@@ -1418,7 +1418,7 @@
 		)
 		(uuid "f3949d17-fa80-4bf5-ad86-61f751e3da15")
 	)
-	(hierarchical_label "6V"
+	(hierarchical_label "5V"
 		(shape input)
 		(at 35.56 110.49 180)
 		(effects
@@ -1638,7 +1638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8169a435-550f-4ae3-a114-dd0583d2a7b1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 83.82 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1698,7 +1698,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -1798,7 +1798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4eae0cb-7fd8-4162-86ec-ed990d76ea68")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR024"
 			(at 187.96 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1858,7 +1858,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d"
-					(reference "#PWR020")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -1876,7 +1876,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a61a3440-d2b0-47f0-acd2-2c63795bd1b9")
-		(property "Reference" "#PWR0319"
+		(property "Reference" "#PWR023"
 			(at 127 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -1936,7 +1936,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d"
-					(reference "#PWR0319")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -2088,7 +2088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fba7c207-9c83-4286-a25a-f169d69ef4d3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR025"
 			(at 187.96 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -2148,7 +2148,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d"
-					(reference "#PWR021")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2192,16 +2192,6 @@
 				(justify left top)
 			)
 		)
-		(pin "6VIN" input
-			(at 43.18 110.49 180)
-			(uuid "5d1a8462-64c5-4540-bb30-4f84aa41bdd7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RF_{IN}" input
 			(at 43.18 114.3 180)
 			(uuid "10968ca8-b542-4964-b264-1bb95cad2e60")
@@ -2220,6 +2210,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5VIN" input
+			(at 43.18 110.49 180)
+			(uuid "e8fe6a43-4553-4506-9766-a5641cd62307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
