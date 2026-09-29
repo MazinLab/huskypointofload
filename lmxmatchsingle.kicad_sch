@@ -5,241 +5,6 @@
 	(uuid "5e369463-2c31-4d4d-a9d9-5f241a40f9ce")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:CoaxialSwitch_Testpoint"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CoaxialSwitch_Testpoint"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Subminiature Coaxial Switch testpoint"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Coaxial Switch RF testpoint"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CoaxialSwitch*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CoaxialSwitch_Testpoint_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 0)
-					(end -2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 0)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CoaxialSwitch_Testpoint_1_1"
-				(polyline
-					(pts
-						(xy -2.54 0.635) (xy 2.54 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.635) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 1.27)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -853,16 +618,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 77.47) (xy 161.29 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a2de91a-fa83-4c98-8c69-dc64d323d431")
-	)
-	(wire
-		(pts
 			(xy 88.9 113.03) (xy 118.11 113.03)
 		)
 		(stroke
@@ -920,16 +675,6 @@
 			(type default)
 		)
 		(uuid "369eb910-2cfc-47f1-a990-81968f1de605")
-	)
-	(wire
-		(pts
-			(xy 161.29 80.01) (xy 161.29 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "390abc55-b0f0-4f38-8fe7-e75539c0c6c1")
 	)
 	(wire
 		(pts
@@ -1023,16 +768,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 80.01) (xy 157.48 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b354d802-7957-4887-916d-9806ea7b0ca0")
-	)
-	(wire
-		(pts
 			(xy 147.32 120.65) (xy 147.32 123.19)
 		)
 		(stroke
@@ -1094,7 +829,7 @@
 	)
 	(hierarchical_label "OUT"
 		(shape input)
-		(at 161.29 77.47 0)
+		(at 147.32 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1237,7 +972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ff98551-6157-4327-ab05-cb48eb4312b0")
-		(property "Reference" "C191"
+		(property "Reference" "C192"
 			(at 123.19 100.584 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1310,15 +1045,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "C191")
+					(reference "C192")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "C229")
+					(reference "C230")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "C232")
+					(reference "C233")
 					(unit 1)
 				)
 			)
@@ -1336,7 +1071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3113b320-d70d-4bc7-9329-7cccd4039dea")
-		(property "Reference" "C192"
+		(property "Reference" "C193"
 			(at 132.08 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1409,101 +1144,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "C192")
+					(reference "C193")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "C230")
+					(reference "C231")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "C233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.29 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64478c22-bf98-4ff4-9bdb-951abb9c1117")
-		(property "Reference" "#PWR0246"
-			(at 161.29 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 161.29 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "510f858c-9127-44d1-9de3-703266c7fd30")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "#PWR0246")
-					(unit 1)
-				)
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "#PWR0270")
-					(unit 1)
-				)
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "#PWR0274")
+					(reference "C234")
 					(unit 1)
 				)
 			)
@@ -1521,7 +1170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "857fb8c8-40be-4574-9f41-bee23262149b")
-		(property "Reference" "#PWR0243"
+		(property "Reference" "#PWR0247"
 			(at 118.11 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -1581,15 +1230,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "#PWR0243")
+					(reference "#PWR0247")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "#PWR0267")
+					(reference "#PWR0270")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "#PWR0271")
+					(reference "#PWR0273")
 					(unit 1)
 				)
 			)
@@ -1907,7 +1556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc0eaba7-e55e-408c-afb0-c96e8ca60f86")
-		(property "Reference" "C193"
+		(property "Reference" "C194"
 			(at 132.08 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,15 +1629,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "C193")
+					(reference "C194")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "C231")
+					(reference "C232")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "C234")
+					(reference "C235")
 					(unit 1)
 				)
 			)
@@ -2006,7 +1655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df430ddf-25ef-4687-a8d0-79652d04c7e8")
-		(property "Reference" "#PWR0244"
+		(property "Reference" "#PWR0248"
 			(at 128.27 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -2066,15 +1715,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "#PWR0244")
+					(reference "#PWR0248")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "#PWR0268")
+					(reference "#PWR0271")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "#PWR0272")
+					(reference "#PWR0274")
 					(unit 1)
 				)
 			)
@@ -2091,7 +1740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea0fd17e-4bf5-4f35-bd26-ac12a36820f4")
-		(property "Reference" "L6"
+		(property "Reference" "L4"
 			(at 113.03 89.916 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2153,15 +1802,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "L6")
+					(reference "L4")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "L8")
+					(reference "L6")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "L9")
+					(reference "L7")
 					(unit 1)
 				)
 			)
@@ -2179,7 +1828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86ed7a7-f506-44fe-a5ac-c39c54246657")
-		(property "Reference" "#PWR0245"
+		(property "Reference" "#PWR0249"
 			(at 147.32 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -2239,105 +1888,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "#PWR0245")
+					(reference "#PWR0249")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "#PWR0269")
+					(reference "#PWR0272")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "#PWR0273")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:CoaxialSwitch_Testpoint")
-		(at 152.4 78.74 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fa791133-90b3-4b06-87ea-433f0e85e9fc")
-		(property "Reference" "TP12"
-			(at 152.4 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPLO"
-			(at 152.4 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:CoaxialSwitch_Hirose_MS-156C3_Horizontal"
-			(at 152.4 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 152.4 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "00e75e8c-d153-4dde-9e44-d3722d3efebf")
-		)
-		(pin "A"
-			(uuid "f6706677-c7a6-48ca-97ae-710fcc313f2f")
-		)
-		(pin "G"
-			(uuid "a10c56a1-58b2-4ec5-9111-01a556e9c2a0")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/87e75886-8a53-478a-8ff0-cf0e99af78d2"
-					(reference "TP12")
-					(unit 1)
-				)
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/e51e609f-c5bf-403c-8ca6-81342f1b9050"
-					(reference "TP13")
-					(unit 1)
-				)
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/f37470a5-aa7e-4685-99e3-8b4186c25acc"
-					(reference "TP14")
+					(reference "#PWR0275")
 					(unit 1)
 				)
 			)

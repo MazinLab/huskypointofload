@@ -4831,6 +4831,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 204.47) (xy 55.88 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654a246f-db09-455c-a78a-a24067a2abaf")
+	)
+	(wire
+		(pts
 			(xy 88.9 35.56) (xy 88.9 43.18)
 		)
 		(stroke
@@ -6975,7 +6985,7 @@
 	)
 	(hierarchical_label "RFIN"
 		(shape input)
-		(at 60.96 204.47 180)
+		(at 53.34 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7128,7 +7138,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02537ce1-285e-4a42-8154-e2cd1ac09198")
-		(property "Reference" "C?"
+		(property "Reference" "C174"
 			(at 63.5 69.8562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7192,7 +7202,101 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C?")
+					(reference "C174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Feedthrough")
+		(at 69.85 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0642ceb9-24ea-4200-a70f-659dd356872b")
+		(property "Reference" "C175"
+			(at 69.85 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 69.85 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 142.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Feedthrough capacitor"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 69.85 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "88ee2848-22d2-467f-ace8-fc9a7874bbed")
+		)
+		(pin "3"
+			(uuid "d6d81f6a-377d-442e-b08f-2906afac195a")
+		)
+		(pin "1"
+			(uuid "282bbeb0-5033-47b3-9d0a-49a6a7d50ebc")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
+					(reference "C175")
 					(unit 1)
 				)
 			)
@@ -7209,7 +7313,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "07a3b327-9467-4cd4-af98-b40a43311db1")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0229"
 			(at 154.94 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7269,7 +7373,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0225")
+					(reference "#PWR0229")
 					(unit 1)
 				)
 			)
@@ -7307,7 +7411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 320.04 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7367,7 +7471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "085db515-f65b-413e-a08d-58fdc9ae3812")
-		(property "Reference" "#PWR0233"
+		(property "Reference" "#PWR0237"
 			(at 275.59 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -7427,7 +7531,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0233")
+					(reference "#PWR0237")
 					(unit 1)
 				)
 			)
@@ -7435,7 +7539,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Feedthrough")
-		(at 304.8 53.34 0)
+		(at 165.1 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7444,9 +7548,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0c1a7535-b81c-4933-a75f-aa925c1df717")
-		(property "Reference" "C184"
-			(at 304.8 44.45 0)
+		(uuid "0b5ba55d-dd04-4698-a42d-51e363e399dd")
+		(property "Reference" "C180"
+			(at 165.1 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7455,8 +7559,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 304.8 46.99 0)
+		(property "Value" "1u"
+			(at 165.1 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7466,7 +7570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 53.34 90)
+			(at 165.1 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,7 +7581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 53.34 90)
+			(at 165.1 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +7592,7 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
-			(at 304.8 53.34 0)
+			(at 165.1 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7498,8 +7602,8 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 304.8 53.34 0)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 165.1 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7510,18 +7614,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "63fca672-b4e0-4f75-930c-ec9577cc26ab")
+			(uuid "521c1340-d736-4810-8c41-e990b0a368df")
 		)
 		(pin "3"
-			(uuid "1b2b43e2-c6d7-472c-ab71-f43be6e4f9a7")
+			(uuid "6a685e94-2de3-4951-a32e-f705ffdd6fc1")
 		)
 		(pin "1"
-			(uuid "0d58f54a-130e-43df-805d-3eceffe0090e")
+			(uuid "23aa6521-c879-4149-a2b7-b65564a64733")
 		)
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C184")
+					(reference "C180")
 					(unit 1)
 				)
 			)
@@ -7539,7 +7643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e2a940c-149a-4c9c-83c6-c0f59b094b42")
-		(property "Reference" "U?"
+		(property "Reference" "U26"
 			(at 48.26 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7611,7 +7715,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "U?")
+					(reference "U26")
 					(unit 1)
 				)
 			)
@@ -7702,7 +7806,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Feedthrough")
-		(at 304.8 76.2 0)
+		(at 304.8 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7711,9 +7815,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21e9d81e-4ce2-404d-b5c0-559ec81acc4a")
-		(property "Reference" "C185"
-			(at 304.8 67.31 0)
+		(uuid "152d4e07-45f4-4b9b-ac26-4ab48df31f5a")
+		(property "Reference" "C187"
+			(at 304.8 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7722,8 +7826,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 304.8 69.85 0)
+		(property "Value" "1u"
+			(at 304.8 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7733,7 +7837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 304.8 76.2 90)
+			(at 304.8 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7744,7 +7848,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 76.2 90)
+			(at 304.8 99.06 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +7859,7 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
-			(at 304.8 76.2 0)
+			(at 304.8 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7765,8 +7869,8 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 304.8 76.2 0)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 304.8 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7777,18 +7881,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "0a2a3cea-1209-4673-a90e-96903c07beaf")
+			(uuid "f83eb134-c520-4d45-8e7c-b6f5259d520f")
 		)
 		(pin "3"
-			(uuid "29605594-3e8b-4f9b-a00b-a8fa5a1f4c28")
+			(uuid "2e098e24-6fb7-44cf-a29b-48effdf6ee3a")
 		)
 		(pin "1"
-			(uuid "04ad1773-b51a-4947-a7f8-b1785e5805fb")
+			(uuid "e7d0588f-0ed5-4cba-a52e-2063152c882a")
 		)
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C185")
+					(reference "C187")
 					(unit 1)
 				)
 			)
@@ -7826,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 180.34 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7979,7 +8083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5f76a0-b818-4208-8b8b-53fccc96f829")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0227"
 			(at 137.16 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -8039,7 +8143,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0223")
+					(reference "#PWR0227")
 					(unit 1)
 				)
 			)
@@ -8056,7 +8160,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "2c17e559-4ff4-482f-9ed3-1dcdbaa46063")
-		(property "Reference" "C176"
+		(property "Reference" "C177"
 			(at 148.59 31.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +8235,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C176")
+					(reference "C177")
 					(unit 1)
 				)
 			)
@@ -8149,7 +8253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30392bf0-5820-4f93-ba8f-c56735f8531a")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0233"
 			(at 165.1 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8209,7 +8313,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0229")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 			)
@@ -8227,7 +8331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "307fe7c7-aad6-4591-9100-54de6c549748")
-		(property "Reference" "#PWR0239"
+		(property "Reference" "#PWR0243"
 			(at 345.44 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -8287,7 +8391,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0239")
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
@@ -8454,7 +8558,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d48cb33-30aa-4cd4-83b2-7dab4d9dbef3")
-		(property "Reference" "#PWR0234"
+		(property "Reference" "#PWR0238"
 			(at 281.94 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8514,101 +8618,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0234")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Feedthrough")
-		(at 165.1 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4eb981ce-5175-4e7f-90fe-51fe2586029d")
-		(property "Reference" "C179"
-			(at 165.1 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 165.1 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Feedthrough capacitor"
-			(at 165.1 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 165.1 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "503d4f57-53e3-4c5d-9e02-c9428e4671a2")
-		)
-		(pin "3"
-			(uuid "04345dd4-300c-4114-97a7-2f019a84ec51")
-		)
-		(pin "1"
-			(uuid "3f508b60-02d7-41eb-b859-685b5635d48d")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C179")
+					(reference "#PWR0238")
 					(unit 1)
 				)
 			)
@@ -8625,7 +8635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56531532-f08f-418d-9346-bb27181c0b74")
-		(property "Reference" "#PWR0232"
+		(property "Reference" "#PWR0236"
 			(at 260.35 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8685,7 +8695,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0232")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -8702,7 +8712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e1deb40-9572-4780-b217-e3d59aabb26e")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0228"
 			(at 142.24 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -8762,101 +8772,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0224")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Feedthrough")
-		(at 165.1 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "656abf73-9a87-420d-ab9f-05e76bdbbb4b")
-		(property "Reference" "C178"
-			(at 165.1 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 165.1 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Feedthrough capacitor"
-			(at 165.1 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 165.1 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "184f9332-32a1-438c-8641-cc499c0fea10")
-		)
-		(pin "3"
-			(uuid "5fc0c446-1061-4bd7-ac54-3e3aa7c79b52")
-		)
-		(pin "1"
-			(uuid "85a790d2-4f53-420e-8a77-aa555b634624")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C178")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -8873,7 +8789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66f75d1b-ee41-49cf-9140-bcbfb882c530")
-		(property "Reference" "#PWR0231"
+		(property "Reference" "#PWR0235"
 			(at 231.14 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8933,7 +8849,101 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0231")
+					(reference "#PWR0235")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Feedthrough")
+		(at 304.8 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "684cfef2-8347-41c7-864f-eedcf0c29dab")
+		(property "Reference" "C184"
+			(at 304.8 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 304.8 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Feedthrough capacitor"
+			(at 304.8 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 304.8 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b7553ae9-0bb1-4a6e-87b1-25d05faa93ff")
+		)
+		(pin "3"
+			(uuid "5286df2a-1547-41e0-800b-64981d512489")
+		)
+		(pin "1"
+			(uuid "1da2c374-1ded-4fec-a5e3-b74d7471d200")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
+					(reference "C184")
 					(unit 1)
 				)
 			)
@@ -8971,7 +8981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 320.04 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -9031,7 +9041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c84300c-9a67-4020-9c05-dc188fd84239")
-		(property "Reference" "#PWR0235"
+		(property "Reference" "#PWR0239"
 			(at 304.8 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9091,7 +9101,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0235")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -9109,7 +9119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dfccb2d-b6c3-43eb-96d9-951f677e5274")
-		(property "Reference" "#PWR0230"
+		(property "Reference" "#PWR0234"
 			(at 213.36 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -9169,7 +9179,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0230")
+					(reference "#PWR0234")
 					(unit 1)
 				)
 			)
@@ -9320,7 +9330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ea4c88d-46cb-468c-bd6c-b58fb84b2239")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR0222"
 			(at 55.88 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9380,7 +9390,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0218")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 			)
@@ -9418,7 +9428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" ""
 			(at 275.59 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -9500,100 +9510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Feedthrough")
-		(at 304.8 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75145508-0295-4103-aa52-53c56735bcce")
-		(property "Reference" "C186"
-			(at 304.8 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 304.8 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 99.06 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Feedthrough capacitor"
-			(at 304.8 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 304.8 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "da014a92-a584-459b-bde8-2b291954f734")
-		)
-		(pin "3"
-			(uuid "64e94287-5df1-4478-93cc-1a9ed304093f")
-		)
-		(pin "1"
-			(uuid "0c77ef93-0e66-4a9c-a195-e1a7dd16f143")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C186")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 165.1 81.28 0)
 		(unit 1)
@@ -9605,7 +9521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76c83d8c-65ea-408d-8993-4251a1f7b42b")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0232"
 			(at 165.1 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9665,7 +9581,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0228")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -9683,7 +9599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "813bcf88-0796-401c-8c42-c1cc58302ab6")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0230"
 			(at 165.1 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9743,7 +9659,101 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0226")
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Feedthrough")
+		(at 165.1 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83d5c760-a57c-4b2a-bdad-5fdcdd52f29e")
+		(property "Reference" "C181"
+			(at 165.1 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 165.1 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Feedthrough capacitor"
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 165.1 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9cf05348-3a0f-4be3-9284-8ca7a20dc701")
+		)
+		(pin "3"
+			(uuid "5440f4c9-a92c-4210-996d-a1c987edbebe")
+		)
+		(pin "1"
+			(uuid "387a8abb-8ae7-4e8c-a780-b6da0175d55b")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
+					(reference "C181")
 					(unit 1)
 				)
 			)
@@ -9857,7 +9867,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Feedthrough")
-		(at 165.1 99.06 0)
+		(at 304.8 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9866,9 +9876,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "887c0940-14fa-4b72-9019-608062c18bc1")
-		(property "Reference" "C180"
-			(at 165.1 90.17 0)
+		(uuid "8e7538f4-49ae-4cd3-af74-a215910b22fe")
+		(property "Reference" "C186"
+			(at 304.8 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9877,8 +9887,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 165.1 92.71 0)
+		(property "Value" "1u"
+			(at 304.8 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9888,7 +9898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 99.06 90)
+			(at 304.8 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +9909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 99.06 90)
+			(at 304.8 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9910,7 +9920,7 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
-			(at 165.1 99.06 0)
+			(at 304.8 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,8 +9930,8 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 165.1 99.06 0)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 304.8 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,18 +9942,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7bde115-1ead-4f0c-baeb-2b83138d8f6e")
+			(uuid "1d4cbf1b-165f-4793-bde4-b1e56ce55af6")
 		)
 		(pin "3"
-			(uuid "7748697d-7919-489a-a71e-f58ad949816b")
+			(uuid "d93f38a0-0127-4548-aa02-7ea6d4ce6a3c")
 		)
 		(pin "1"
-			(uuid "495f3c61-aa11-4baf-8035-d3560efbebc5")
+			(uuid "f1e08d01-4f7d-4f8d-88d3-8c1b54d2046a")
 		)
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C180")
+					(reference "C186")
 					(unit 1)
 				)
 			)
@@ -9962,7 +9972,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8f13676e-e356-4e76-b9ea-6693966a2b30")
-		(property "Reference" "C175"
+		(property "Reference" "C176"
 			(at 139.7 31.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,101 +10047,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C175")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Feedthrough")
-		(at 165.1 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f5c28a3-277c-4215-bf3b-a3d35410a40f")
-		(property "Reference" "C177"
-			(at 165.1 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 165.1 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Feedthrough capacitor"
-			(at 165.1 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 165.1 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c28f1acf-77a2-479c-8e55-c8372f1fa8b6")
-		)
-		(pin "3"
-			(uuid "7d907b53-dbb6-4ca2-8fcd-8d573085e45c")
-		)
-		(pin "1"
-			(uuid "9a9afb97-ca8b-4e20-8c45-f886df1dc058")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C177")
+					(reference "C176")
 					(unit 1)
 				)
 			)
@@ -10324,7 +10240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9abed337-68e7-4dd8-8121-59f8027b476e")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR0220"
 			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10384,7 +10300,97 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0216")
+					(reference "#PWR0220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 58.42 204.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2489bd9-ad1b-4752-8348-2331e30b29d4")
+		(property "Reference" "C173"
+			(at 58.42 209.804 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n"
+			(at 58.42 207.264 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 58.42 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 58.42 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" ""
+			(at 58.42 204.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c735af7-7c72-4c0b-855c-e40d9e24e146")
+		)
+		(pin "1"
+			(uuid "c888f788-8eca-4da6-bcdd-7d8a9fa5bb43")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
+					(reference "C173")
 					(unit 1)
 				)
 			)
@@ -10402,7 +10408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a63de1d0-85ca-4378-86ad-ed3e04f79168")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR0224"
 			(at 69.85 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -10462,7 +10468,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0220")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)
@@ -10481,7 +10487,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a897335f-4ea2-412f-83f7-0041b5084c87")
-		(property "Reference" "C181"
+		(property "Reference" "C182"
 			(at 279.4 31.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10556,7 +10562,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C181")
+					(reference "C182")
 					(unit 1)
 				)
 			)
@@ -10649,6 +10655,100 @@
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
 					(reference "R203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Feedthrough")
+		(at 165.1 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3edcc8d-b1ce-462b-bae4-2a58fc6350a0")
+		(property "Reference" "C178"
+			(at 165.1 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 165.1 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Feedthrough capacitor"
+			(at 165.1 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 165.1 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c128320-5475-459f-92f7-2b48e0743345")
+		)
+		(pin "3"
+			(uuid "e64e0a26-22e9-4d36-a646-e6efe8bd36e9")
+		)
+		(pin "1"
+			(uuid "bfb1ffb9-16f7-4821-b19b-a46ab621074f")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
+					(reference "C178")
 					(unit 1)
 				)
 			)
@@ -10758,7 +10858,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "ba95978c-a22f-44c2-a976-bdebf7a8cb45")
-		(property "Reference" "C182"
+		(property "Reference" "C183"
 			(at 288.29 31.7562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10833,7 +10933,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C182")
+					(reference "C183")
 					(unit 1)
 				)
 			)
@@ -10871,7 +10971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 180.34 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10951,7 +11051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 180.34 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11252,7 +11352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c748c081-612d-4272-9a33-48d1e86f4dc3")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR0223"
 			(at 66.04 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11312,7 +11412,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0219")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -11330,7 +11430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdcb1912-eff2-49e9-8d1c-256949400219")
-		(property "Reference" "#PWR0238"
+		(property "Reference" "#PWR0242"
 			(at 304.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11390,7 +11490,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0238")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -11408,7 +11508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce1a6be5-2b42-46b5-b441-ececa84a3b67")
-		(property "Reference" "#PWR0237"
+		(property "Reference" "#PWR0241"
 			(at 304.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -11468,101 +11568,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0237")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Feedthrough")
-		(at 69.85 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d114ebcd-9eb2-4491-9db5-5abd0a31880e")
-		(property "Reference" "C174"
-			(at 69.85 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 69.85 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 142.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Feedthrough capacitor"
-			(at 69.85 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 69.85 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cbeb7c5a-1d15-428c-bfb5-bd72850f3a98")
-		)
-		(pin "3"
-			(uuid "5e4cfd52-f3c8-4b9c-a3ca-e732be33b764")
-		)
-		(pin "1"
-			(uuid "3e1b64d9-1ffb-4fd9-9b1c-d3211a2bdf86")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C174")
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -11580,7 +11586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d38df284-5eae-454c-a994-4e38bf1f9ea2")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR0225"
 			(at 83.82 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -11640,7 +11646,101 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0221")
+					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Feedthrough")
+		(at 165.1 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d733b113-f833-404a-8fb7-d859f0a861f7")
+		(property "Reference" "C179"
+			(at 165.1 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 165.1 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Feedthrough capacitor"
+			(at 165.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 165.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2fe8478-cd24-452f-bd56-c6f8b071d5ed")
+		)
+		(pin "3"
+			(uuid "211c861e-6348-4d40-9c6e-f575b7badfbf")
+		)
+		(pin "1"
+			(uuid "23cb80cc-21c5-4579-a89d-4c2393182ee4")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
+					(reference "C179")
 					(unit 1)
 				)
 			)
@@ -11658,7 +11758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d863fac9-89df-4243-a72a-a7afd6f270e8")
-		(property "Reference" "#PWR0332"
+		(property "Reference" "#PWR0221"
 			(at 48.26 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -11718,7 +11818,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0332")
+					(reference "#PWR0221")
 					(unit 1)
 				)
 			)
@@ -11735,7 +11835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d955c873-6d9a-4536-863f-c4e9e1304bf7")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR0226"
 			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11795,7 +11895,101 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0222")
+					(reference "#PWR0226")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Feedthrough")
+		(at 304.8 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba34633-1797-469f-b543-129ed11ba8d8")
+		(property "Reference" "C185"
+			(at 304.8 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 304.8 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 304.8 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.8 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Feedthrough capacitor"
+			(at 304.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-13394-1-ND"
+			(at 304.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "490074fa-1c14-4fa4-bb45-0d3bea3f9094")
+		)
+		(pin "3"
+			(uuid "ef8aa5ea-c8d8-4723-a9dc-f9c0f41454b9")
+		)
+		(pin "1"
+			(uuid "1beacbe5-cf81-405b-a8bd-875ff9ef67e0")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
+					(reference "C185")
 					(unit 1)
 				)
 			)
@@ -11895,100 +12089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Feedthrough")
-		(at 304.8 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2f8215f-e4f1-4b90-8e3c-673558c04264")
-		(property "Reference" "C183"
-			(at 304.8 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 304.8 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 30.48 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Feedthrough capacitor"
-			(at 304.8 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "490-6969-1-ND"
-			(at 304.8 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0fd88227-d6c8-4f79-aba1-d27bb3bc2b6f")
-		)
-		(pin "3"
-			(uuid "a1cab39f-7b26-4f8c-9467-8713d82c2331")
-		)
-		(pin "1"
-			(uuid "7bfd7f03-0c73-4b1f-9dfc-984c89bda1bf")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 180.34 27.94 90)
 		(unit 1)
@@ -12020,7 +12120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 180.34 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12192,7 +12292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 320.04 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12333,7 +12433,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed5013bb-034a-437b-b248-80bebb447b99")
-		(property "Reference" "C?"
+		(property "Reference" "C172"
 			(at 33.02 69.8562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12397,7 +12497,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "C?")
+					(reference "C172")
 					(unit 1)
 				)
 			)
@@ -12415,7 +12515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f062df1a-1e33-4254-a321-7ce5dda4393e")
-		(property "Reference" "#PWR0236"
+		(property "Reference" "#PWR0240"
 			(at 304.8 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12475,7 +12575,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0236")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -12585,7 +12685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ef9468-56dd-4106-964c-98f73b76a8fd")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0231"
 			(at 165.1 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -12645,7 +12745,7 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/e3b9a158-a3aa-4eeb-b09d-59c46f782af5"
-					(reference "#PWR0227")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -12683,7 +12783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP4"
+		(property "Footprint" ""
 			(at 320.04 27.94 0)
 			(hide yes)
 			(show_name no)

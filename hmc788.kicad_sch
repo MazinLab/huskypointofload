@@ -161,21 +161,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Small"
+		(symbol "Device:FerriteBead_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
-				(hide yes)
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -185,8 +184,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
+			(property "Value" "FerriteBead_Small"
+				(at 1.905 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -197,7 +196,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -218,7 +217,7 @@
 					)
 				)
 			)
-			(property "Description" "Inductor, small symbol"
+			(property "Description" "Ferrite bead, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -229,7 +228,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
+			(property "ki_keywords" "L ferrite bead inductor filter"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -240,7 +239,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -251,11 +250,11 @@
 					)
 				)
 			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
+			(symbol "FerriteBead_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -264,10 +263,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -276,22 +275,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -301,10 +288,10 @@
 					)
 				)
 			)
-			(symbol "L_Small_1_1"
+			(symbol "FerriteBead_Small_1_1"
 				(pin passive line
 					(at 0 2.54 270)
-					(length 0.508)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -322,7 +309,7 @@
 				)
 				(pin passive line
 					(at 0 -2.54 90)
-					(length 0.508)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -879,6 +866,106 @@
 		(uuid "9b87c7d6-5596-464f-99a4-f86976e1b682")
 	)
 	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 152.4 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16a6e334-9fbb-454a-9bf7-ec6bd915b0cd")
+		(property "Reference" "FB1"
+			(at 149.86 78.7018 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470 OHM @ 100MHz"
+			(at 149.86 81.2418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 150.622 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 152.4 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-5198-1-ND"
+			(at 152.4 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6bd0956a-a363-4ed8-8f3b-daec5280b2c6")
+		)
+		(pin "2"
+			(uuid "9070054c-4ea3-4f95-8f34-dbfc0beb130e")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
+					(reference "FB1")
+					(unit 1)
+				)
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
+					(reference "FB2")
+					(unit 1)
+				)
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 87.63 0)
 		(unit 1)
@@ -890,7 +977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6533ffbb-df38-4ee2-9486-8c48ea06bc33")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 171.45 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -950,15 +1037,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR091")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR0312")
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -1052,106 +1139,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "U43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 120.65 101.6 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c34333a-a738-42a8-a269-aab9b102c248")
-		(property "Reference" "C5"
-			(at 120.65 106.934 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 120.65 104.394 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 120.65 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "1284-1540-1-ND"
-			(at 120.65 101.6 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c9f898e-5417-4058-b4fb-93e7685c24f4")
-		)
-		(pin "1"
-			(uuid "470d1367-7bf8-461e-b062-b28f4db81718")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
-					(reference "C5")
-					(unit 1)
-				)
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C65")
-					(unit 1)
-				)
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C270")
+					(reference "U44")
 					(unit 1)
 				)
 			)
@@ -1240,16 +1228,15 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C272")
+					(reference "C276")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 152.4 80.01 0)
-		(mirror y)
+		(lib_id "Device:C_Small")
+		(at 120.65 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1257,31 +1244,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "94c63ba6-122b-4fd4-aea1-9e634e9089c2")
-		(property "Reference" "L1"
-			(at 151.13 78.7399 0)
+		(uuid "b86cbbb7-f4f0-4f11-999d-c3687a54333b")
+		(property "Reference" "C5"
+			(at 120.65 106.934 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "6.35u"
-			(at 151.13 81.2799 0)
+		(property "Value" "1n"
+			(at 120.65 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 80.01 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,7 +1277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 80.01 0)
+			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1302,8 +1287,8 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
-			(at 152.4 80.01 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,24 +1298,35 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "94a63ba4-9539-40b7-ad32-1d0b3075b781")
+		(property "DIGIKEY_PN" ""
+			(at 120.65 101.6 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "2cb7a669-71aa-4e73-9fdf-b9d9cb6c0164")
+			(uuid "467e12d7-edf9-4c94-b31b-94c335fb109b")
+		)
+		(pin "1"
+			(uuid "1795b732-0ee8-4b38-979a-b638fb92a55a")
 		)
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
-					(reference "L1")
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "L4")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "L12")
+					(reference "C274")
 					(unit 1)
 				)
 			)
@@ -1419,7 +1415,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C273")
+					(reference "C277")
 					(unit 1)
 				)
 			)
@@ -1437,7 +1433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cef006ca-cb19-4523-bb14-fdc41a78716b")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 139.7 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -1497,15 +1493,15 @@
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "#PWR0311")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -1532,7 +1528,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 158.75 104.394 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1542,7 +1538,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1575,7 +1571,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN" "1284-1540-1-ND"
+		(property "DIGIKEY_PN" ""
 			(at 158.75 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -1603,7 +1599,7 @@
 					(unit 1)
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
-					(reference "C271")
+					(reference "C275")
 					(unit 1)
 				)
 			)
