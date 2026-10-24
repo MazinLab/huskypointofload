@@ -1020,7 +1020,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc525a.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1062,7 +1062,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -15.24 -3.81 0)
+					(at -20.32 -3.81 0)
 					(length 2.54)
 					(name "RF"
 						(effects
@@ -1098,7 +1098,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 3.81 180)
+					(at 20.32 3.81 180)
 					(length 2.54)
 					(name "IF1"
 						(effects
@@ -1116,7 +1116,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -3.81 180)
+					(at 20.32 -3.81 180)
 					(length 2.54)
 					(name "IF2"
 						(effects
@@ -1134,7 +1134,7 @@
 					)
 				)
 				(pin power_in line
-					(at 3.81 -8.89 90)
+					(at -1.27 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1152,7 +1152,7 @@
 					)
 				)
 				(pin power_in line
-					(at -1.27 -8.89 90)
+					(at 1.27 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1170,7 +1170,7 @@
 					)
 				)
 				(pin input line
-					(at -15.24 3.81 0)
+					(at -20.32 3.81 0)
 					(length 2.54)
 					(name "LO"
 						(effects
@@ -1188,7 +1188,7 @@
 					)
 				)
 				(pin power_in line
-					(at 1.27 -8.89 90)
+					(at 3.81 -8.89 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1215,7 +1215,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1226,14 +1226,298 @@
 			)
 			(symbol "HMC525ALC4_1_1"
 				(rectangle
-					(start -12.7 6.35)
-					(end 12.7 -6.35)
+					(start -17.78 6.35)
+					(end 17.78 -6.35)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -11.43 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1356,37 +1640,43 @@
 		)
 	)
 	(junction
+		(at 181.61 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fd67e19-9ef2-441b-a11a-287b674ba981")
+	)
+	(junction
 		(at 148.59 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "376bfa6f-1581-428a-b016-b36752cfc9cc")
 	)
 	(junction
-		(at 189.23 180.34)
+		(at 187.96 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49441594-8ed1-41b5-9f5d-3cbac8c28232")
 	)
 	(junction
-		(at 179.07 180.34)
+		(at 184.15 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "606ff2f9-59ad-4146-a49c-21daca86510a")
 	)
 	(junction
-		(at 186.69 180.34)
+		(at 191.77 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a61d3c10-cd29-40b1-be76-1331e4b52af6")
 	)
 	(junction
-		(at 181.61 180.34)
+		(at 186.69 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7cda78f-80ac-47fa-ab19-87343673b7e3")
 	)
 	(junction
-		(at 184.15 180.34)
+		(at 189.23 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eac39035-78da-41f7-9036-234ee9168321")
@@ -1403,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 198.12) (xy 220.98 200.66)
+			(xy 231.14 198.12) (xy 231.14 200.66)
 		)
 		(stroke
 			(width 0)
@@ -1413,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 172.72) (xy 208.28 187.96)
+			(xy 218.44 172.72) (xy 218.44 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1423,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 172.72) (xy 208.28 172.72)
+			(xy 208.28 172.72) (xy 218.44 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1433,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 177.8) (xy 179.07 180.34)
+			(xy 184.15 177.8) (xy 184.15 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1453,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 180.34) (xy 189.23 177.8)
+			(xy 194.31 180.34) (xy 194.31 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1463,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 180.34) (xy 184.15 180.34)
+			(xy 186.69 180.34) (xy 189.23 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1473,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 187.96) (xy 233.68 187.96)
+			(xy 241.3 187.96) (xy 243.84 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1483,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 180.34) (xy 189.23 182.88)
+			(xy 187.96 180.34) (xy 187.96 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1493,13 +1783,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 180.34) (xy 179.07 180.34)
+			(xy 181.61 180.34) (xy 184.15 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "32049bba-7e6e-4100-ad93-eb2e188d2331")
+	)
+	(wire
+		(pts
+			(xy 176.53 180.34) (xy 181.61 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a3f5ff-27ec-4488-b398-0e50274b1fe8")
 	)
 	(wire
 		(pts
@@ -1533,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 177.8) (xy 184.15 180.34)
+			(xy 189.23 177.8) (xy 189.23 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 149.86) (xy 208.28 165.1)
+			(xy 218.44 149.86) (xy 218.44 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 149.86) (xy 233.68 149.86)
+			(xy 241.3 149.86) (xy 243.84 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1563,7 +1863,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 180.34) (xy 181.61 180.34)
+			(xy 184.15 180.34) (xy 186.69 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1573,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 177.8) (xy 186.69 180.34)
+			(xy 191.77 177.8) (xy 191.77 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1583,13 +1883,23 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 177.8) (xy 176.53 180.34)
+			(xy 181.61 177.8) (xy 181.61 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c89930e-ff23-4e41-9525-d90918235860")
+	)
+	(wire
+		(pts
+			(xy 176.53 177.8) (xy 176.53 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907a8239-64c5-4acc-80c0-6872ecfd42c4")
 	)
 	(wire
 		(pts
@@ -1603,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 177.8) (xy 181.61 180.34)
+			(xy 186.69 177.8) (xy 186.69 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1623,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 149.86) (xy 208.28 149.86)
+			(xy 220.98 149.86) (xy 218.44 149.86)
 		)
 		(stroke
 			(width 0)
@@ -1633,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 187.96) (xy 208.28 187.96)
+			(xy 220.98 187.96) (xy 218.44 187.96)
 		)
 		(stroke
 			(width 0)
@@ -1663,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 165.1) (xy 208.28 165.1)
+			(xy 208.28 165.1) (xy 218.44 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1683,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 180.34) (xy 189.23 180.34)
+			(xy 191.77 180.34) (xy 194.31 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1693,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 180.34) (xy 186.69 180.34)
+			(xy 189.23 180.34) (xy 191.77 180.34)
 		)
 		(stroke
 			(width 0)
@@ -1713,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 160.02) (xy 220.98 162.56)
+			(xy 231.14 160.02) (xy 231.14 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +2075,7 @@
 	)
 	(hierarchical_label "I"
 		(shape input)
-		(at 233.68 149.86 0)
+		(at 243.84 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1776,7 +2086,7 @@
 	)
 	(hierarchical_label "Q"
 		(shape input)
-		(at 233.68 187.96 0)
+		(at 243.84 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1967,7 +2277,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 200.66 0)
+		(at 231.14 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1978,7 +2288,7 @@
 		(fields_autoplaced yes)
 		(uuid "22234f4e-f3aa-4c45-93f0-4bb446c2d25e")
 		(property "Reference" "#PWR020"
-			(at 220.98 207.01 0)
+			(at 231.14 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1989,7 +2299,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 205.74 0)
+			(at 231.14 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1999,7 +2309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 200.66 0)
+			(at 231.14 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2010,7 +2320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 200.66 0)
+			(at 231.14 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2021,7 +2331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 200.66 0)
+			(at 231.14 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2049,7 +2359,7 @@
 	)
 	(symbol
 		(lib_id "huskylib:HMC525ALC4")
-		(at 182.88 168.91 0)
+		(at 187.96 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2060,7 +2370,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f19b0c5-6c23-445c-9be7-c4cc044ba68a")
 		(property "Reference" "U2"
-			(at 182.88 157.48 0)
+			(at 187.96 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2070,7 +2380,7 @@
 			)
 		)
 		(property "Value" "HMC525ALC4"
-			(at 182.88 160.02 0)
+			(at 187.96 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2080,7 +2390,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
-			(at 182.88 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,8 +2400,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 182.88 168.91 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/hmc525a.pdf"
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 168.91 0)
+			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2141,6 +2451,51 @@
 		)
 		(pin "3"
 			(uuid "862f2b45-3d1a-4d3a-a781-fb7d6f1e8d09")
+		)
+		(pin "8"
+			(uuid "b11d9a63-c015-46c9-bc85-25d2d12629a5")
+		)
+		(pin "13"
+			(uuid "4bf0009b-4b54-417b-a74c-8e40abe078a9")
+		)
+		(pin "6"
+			(uuid "ccec51af-e193-44a6-8b91-c89bbde99993")
+		)
+		(pin "19"
+			(uuid "4ff41cd7-1646-44b3-b25c-0d5cc4ab1e2d")
+		)
+		(pin "23"
+			(uuid "e7128c78-45d5-48d8-99c1-75bf95dc3455")
+		)
+		(pin "18"
+			(uuid "88040dc0-14a1-4d53-b23e-83d262616431")
+		)
+		(pin "22"
+			(uuid "63343197-d654-48b9-aca9-cff1e579c65c")
+		)
+		(pin "17"
+			(uuid "b5ce57fa-3811-4aac-beaa-f5f04697ea0d")
+		)
+		(pin "25"
+			(uuid "a5cc3218-4163-4c2a-974c-e5bf0e872518")
+		)
+		(pin "24"
+			(uuid "a64898e4-ee48-41c3-af89-4c783ffc6f1f")
+		)
+		(pin "2"
+			(uuid "74b4e9b1-2bda-4c55-8a67-5a4a62a9fd51")
+		)
+		(pin "7"
+			(uuid "5be08bc7-e260-4cc0-a7c0-f8afdb94ca34")
+		)
+		(pin "10"
+			(uuid "8bbd52a1-fa33-4f82-8e22-0fddc0682566")
+		)
+		(pin "1"
+			(uuid "2a1c1393-9a40-4888-9775-08c142947129")
+		)
+		(pin "20"
+			(uuid "365b4f53-0f69-499f-98a4-e1886ada0989")
 		)
 		(instances
 			(project "huskypointofload"
@@ -2239,7 +2594,7 @@
 	)
 	(symbol
 		(lib_id "RF_Filter:LFCN-2000")
-		(at 220.98 187.96 0)
+		(at 231.14 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2250,7 +2605,7 @@
 		(fields_autoplaced yes)
 		(uuid "795bdd2b-7503-4767-b987-5cdcf0002e3a")
 		(property "Reference" "FL3"
-			(at 220.98 175.26 0)
+			(at 231.14 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2260,7 +2615,7 @@
 			)
 		)
 		(property "Value" "LFCN-2000"
-			(at 220.98 177.8 0)
+			(at 231.14 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2270,7 +2625,7 @@
 			)
 		)
 		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
-			(at 220.98 175.26 0)
+			(at 231.14 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2281,7 +2636,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-2000+.pdf"
-			(at 220.98 187.96 0)
+			(at 231.14 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2647,7 @@
 			)
 		)
 		(property "Description" "2000MHz 50 Ohm Passive Low Pass Filter, FV1206"
-			(at 220.98 187.96 0)
+			(at 231.14 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,7 +2766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 162.56 0)
+		(at 231.14 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2422,7 +2777,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d6501ba-082b-4605-879c-9baa59778afa")
 		(property "Reference" "#PWR019"
-			(at 220.98 168.91 0)
+			(at 231.14 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2433,7 +2788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 167.64 0)
+			(at 231.14 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2443,7 +2798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 162.56 0)
+			(at 231.14 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2454,7 +2809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 162.56 0)
+			(at 231.14 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 162.56 0)
+			(at 231.14 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2848,7 @@
 	)
 	(symbol
 		(lib_id "RF_Filter:LFCN-2000")
-		(at 220.98 149.86 0)
+		(at 231.14 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2504,7 +2859,7 @@
 		(fields_autoplaced yes)
 		(uuid "a876df35-02de-405d-a49e-6c6dffbd9825")
 		(property "Reference" "FL2"
-			(at 220.98 137.16 0)
+			(at 231.14 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2514,7 +2869,7 @@
 			)
 		)
 		(property "Value" "LFCN-2000"
-			(at 220.98 139.7 0)
+			(at 231.14 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2524,7 +2879,7 @@
 			)
 		)
 		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
-			(at 220.98 137.16 0)
+			(at 231.14 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2535,7 +2890,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-2000+.pdf"
-			(at 220.98 149.86 0)
+			(at 231.14 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2546,7 +2901,7 @@
 			)
 		)
 		(property "Description" "2000MHz 50 Ohm Passive Low Pass Filter, FV1206"
-			(at 220.98 149.86 0)
+			(at 231.14 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,7 +3024,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 182.88 0)
+		(at 187.96 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2680,7 +3035,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccbdd32f-0d00-47f0-9a80-eb3c9049f724")
 		(property "Reference" "#PWR018"
-			(at 189.23 189.23 0)
+			(at 187.96 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2691,7 +3046,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 187.96 0)
+			(at 187.96 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2701,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 182.88 0)
+			(at 187.96 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +3067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 182.88 0)
+			(at 187.96 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +3078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 182.88 0)
+			(at 187.96 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

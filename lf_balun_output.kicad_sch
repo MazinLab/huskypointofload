@@ -63,7 +63,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -113,7 +113,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -2283,7 +2283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/ADT2-1T+.pdf"
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/ADT2-71T+.pdf"
 			(at 106.68 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2294,7 +2294,7 @@
 				)
 			)
 		)
-		(property "Description" "1:2 CORE & WIRE Transformer, 0.4 - 450 MHz, 50Ω"
+		(property "Description" "0.40-500MHz 1:2 RF Transformer, Unbalanced to Balanced Center Tap, CD542"
 			(at 106.68 88.9 0)
 			(hide yes)
 			(show_name no)
