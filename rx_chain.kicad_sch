@@ -7846,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 69.85 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -8175,7 +8175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 172.72 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -8521,7 +8521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 312.42 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -9273,7 +9273,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
+		(property "Footprint" "huskypoint:LGA-24_CC-24-17"
 			(at 207.01 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -9579,7 +9579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
 			(at 311.15 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -10199,7 +10199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 312.42 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -10698,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm"
 			(at 344.17 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -11257,7 +11257,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 172.72 99.06 90)
 			(hide yes)
 			(show_name no)
@@ -11353,7 +11353,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-8_2x2mm_P0.5mm"
+		(property "Footprint" "huskypoint:QFN-8_EP_2x2_Pitch0.5mm_ADL8124"
 			(at 80.01 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -11454,7 +11454,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 312.42 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -12407,7 +12407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 172.72 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -12847,7 +12847,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
+		(property "Footprint" "huskypoint:LGA-24_CC-24-17"
 			(at 130.81 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -13399,7 +13399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 172.72 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -13648,7 +13648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "huskypoint:NFM18PS"
 			(at 312.42 53.34 90)
 			(hide yes)
 			(show_name no)

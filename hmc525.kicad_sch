@@ -2220,7 +2220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Converter:RF_Attenuator_Susumu_PAT1220"
+		(property "Footprint" "huskypoint:RF_Attenuator_Susumu_PAT1220"
 			(at 118.11 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -2389,7 +2389,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
 			(at 187.96 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -2624,7 +2624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
+		(property "Footprint" "huskypoint:Filter_Mini-Circuits_FV1206"
 			(at 231.14 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -2878,7 +2878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
+		(property "Footprint" "huskypoint:Filter_Mini-Circuits_FV1206"
 			(at 231.14 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -3223,7 +3223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206-4"
+		(property "Footprint" "huskypoint:Filter_Mini-Circuits_FV1206-4"
 			(at 92.71 152.4 0)
 			(hide yes)
 			(show_name no)
