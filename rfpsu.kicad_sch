@@ -8309,7 +8309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8342,7 +8342,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN" "ARF2755-ND"
+		(property "DIGIKEY_PN" "26-U.FL-R-SMT-1(60)CT-ND"
 			(at 262.89 52.07 0)
 			(hide yes)
 			(show_name no)
