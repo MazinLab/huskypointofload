@@ -835,16 +835,26 @@
 		(uuid "120f0d91-f673-48b8-a11e-75fcc373bc10")
 	)
 	(junction
-		(at 152.4 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5934ea6a-c587-4db5-8f30-93e7fe686330")
-	)
-	(junction
 		(at 139.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c2230243-2aef-498e-b3ae-8409b4ad1bd1")
+	)
+	(junction
+		(at 152.4 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b8c6a2-c1ff-4e9f-9c9d-76ff80a302fd")
+	)
+	(wire
+		(pts
+			(xy 152.4 63.5) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b72cfa-b96c-4b8a-9fcb-9f2ba34b00cd")
 	)
 	(wire
 		(pts
@@ -855,6 +865,16 @@
 			(type default)
 		)
 		(uuid "1da99cb0-dcc6-44ed-85a5-75b09d1b05a6")
+	)
+	(wire
+		(pts
+			(xy 152.4 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee4960c-d052-4185-b610-30fa2152e245")
 	)
 	(wire
 		(pts
@@ -885,16 +905,6 @@
 			(type default)
 		)
 		(uuid "6a79316c-654e-40b4-b04e-7b9271680538")
-	)
-	(wire
-		(pts
-			(xy 152.4 101.6) (xy 156.21 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7075e8d2-5599-4b33-8305-009d4fa8d8fc")
 	)
 	(wire
 		(pts
@@ -948,16 +958,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3816a1a-1d10-444f-a63f-9f2762164c79")
-	)
-	(wire
-		(pts
 			(xy 138.43 114.3) (xy 139.7 114.3)
 		)
 		(stroke
@@ -985,6 +985,16 @@
 			(type default)
 		)
 		(uuid "c978bfec-86cd-4fad-bc9e-7f8a450e5e90")
+	)
+	(wire
+		(pts
+			(xy 152.4 72.39) (xy 152.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb564624-c815-485f-a9bc-a3b20c258b36")
 	)
 	(wire
 		(pts
@@ -1638,6 +1648,104 @@
 				)
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
 					(reference "C274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead_Small")
+		(at 152.4 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c1e22561-87c7-4698-91ec-702befd8352e")
+		(property "Reference" "FB9"
+			(at 157.988 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470 OHM @ 100MHz"
+			(at 155.702 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 154.178 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, small symbol"
+			(at 152.4 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "490-5198-1-ND"
+			(at 152.4 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de8cccc9-0f78-415d-8e0b-6bbfc2adb382")
+		)
+		(pin "2"
+			(uuid "a257aea9-d24e-421e-8f57-39114b6fa410")
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/cb2bed6b-53a5-4f58-b70f-ffa107cbb07d/3680bb14-ef6d-491f-878c-9613c4989b3b"
+					(reference "FB9")
+					(unit 1)
+				)
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/d592dca6-985b-424e-980b-4b036b0ee281/ac278918-a47b-404c-8a96-6090a2d8d859"
+					(reference "FB10")
+					(unit 1)
+				)
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/ff4f07c4-e191-4e61-a9ef-d50cbe59545f/ac278918-a47b-404c-8a96-6090a2d8d859"
+					(reference "FB11")
 					(unit 1)
 				)
 			)
