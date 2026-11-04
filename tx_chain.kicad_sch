@@ -1997,12 +1997,6 @@
 		(uuid "29376701-1dd0-4a87-ade2-e23ac501c3ed")
 	)
 	(junction
-		(at 101.6 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31d20b37-0d4b-4ad5-a65a-2d999e04825c")
-	)
-	(junction
 		(at 97.79 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2141,12 +2135,6 @@
 		(uuid "bb6c9a97-be0d-4d97-aeed-c5711187969f")
 	)
 	(junction
-		(at 101.6 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3ebd5d2-46de-4da9-84ff-629f55f29f03")
-	)
-	(junction
 		(at 173.99 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2278,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 101.6 40.64)
+			(xy 101.6 35.56) (xy 101.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2295,16 +2283,6 @@
 			(type default)
 		)
 		(uuid "0199c1b3-a081-41fa-bcb8-e687c0df312a")
-	)
-	(wire
-		(pts
-			(xy 101.6 38.1) (xy 101.6 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02d66309-2baa-4110-9dc3-61b2a3f1c97a")
 	)
 	(wire
 		(pts
@@ -2475,16 +2453,6 @@
 			(type default)
 		)
 		(uuid "3668b405-9944-46be-9292-236d8f0fc47b")
-	)
-	(wire
-		(pts
-			(xy 111.76 27.94) (xy 101.6 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39127dca-a6f4-4181-9f02-9539b2ed80fd")
 	)
 	(wire
 		(pts
@@ -2848,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 27.94) (xy 101.6 30.48)
+			(xy 101.6 25.4) (xy 101.6 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2905,16 +2873,6 @@
 			(type default)
 		)
 		(uuid "873e825b-c063-4a6c-add3-dfb191b39b03")
-	)
-	(wire
-		(pts
-			(xy 101.6 25.4) (xy 101.6 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "877f68fa-4255-4475-98ab-65d81d78ab7b")
 	)
 	(wire
 		(pts
@@ -2988,16 +2946,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 35.56) (xy 111.76 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93223dfe-bb9d-48ef-b8a3-223f1242f417")
-	)
-	(wire
-		(pts
 			(xy 190.5 114.3) (xy 190.5 111.76)
 		)
 		(stroke
@@ -3055,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "a755ac26-42b0-46b8-b24e-127dca7e68ce")
-	)
-	(wire
-		(pts
-			(xy 111.76 27.94) (xy 111.76 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a81c47cb-fd65-4bc8-a1fd-b9b351494abe")
 	)
 	(wire
 		(pts
@@ -3155,16 +3093,6 @@
 			(type default)
 		)
 		(uuid "b5e57ba8-1e21-4237-9252-82be7ccb26f4")
-	)
-	(wire
-		(pts
-			(xy 111.76 38.1) (xy 101.6 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6adf808-e12e-4a03-83df-f3acaa60ae2a")
 	)
 	(wire
 		(pts
@@ -5069,99 +4997,6 @@
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/a878f797-8048-4803-8d22-b5b3217fc43b"
 					(reference "#PWR0284")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 111.76 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d16fd0de-3ac9-420d-bc20-0fc71f38625b")
-		(property "Reference" "C243"
-			(at 114.3 31.7562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 114.3 34.2962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 111.76 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DIGIKEY_PN" "490-14603-1-ND"
-			(at 111.76 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a106ed21-5e10-4f9a-a8f7-5fb0b99a5da3")
-		)
-		(pin "1"
-			(uuid "15d23a39-5be9-44cf-9d58-382e3a235d2f")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/a878f797-8048-4803-8d22-b5b3217fc43b"
-					(reference "C243")
 					(unit 1)
 				)
 			)
