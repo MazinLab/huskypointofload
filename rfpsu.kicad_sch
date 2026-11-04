@@ -1761,7 +1761,7 @@
 		)
 		(uuid "27579173-d93f-4d4c-86b1-b518dadc3795")
 	)
-	(text "2.2u 6.3V 0201 X5R\nGRM033R60J225ME01"
+	(text "2.2u 50V 1206 X7R\nGRM31CR71H475MA12L"
 		(exclude_from_sim no)
 		(at 171.45 74.93 0)
 		(effects
@@ -7564,7 +7564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7597,7 +7597,7 @@
 				)
 			)
 		)
-		(property "DIGIKEY_PN" "490-GRM033R60J225ME01DCT-ND"
+		(property "DIGIKEY_PN" "490-6522-1-ND"
 			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
