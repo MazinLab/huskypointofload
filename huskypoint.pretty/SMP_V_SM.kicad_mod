@@ -1,0 +1,157 @@
+(footprint "SMP_V_SM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DocString")
+	(tags "Keywords")
+	(property "Reference" "J10"
+		(at 0 3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "448118a7-c900-47a8-b7e1-96b416e7ae8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Value" "B2PY2"
+		(at 0 1.27 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "64d1bd72-5be1-4ed4-99ab-f9e641e9f4c1")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.127)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80ee6721-ad5c-4037-abce-1e2f2cfb0f2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f52c885-6a77-432f-a9c3-52a9ab630c75")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d20084c-3fbf-49db-a350-ee1085634837")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(zone_connect 2)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -2.55 -2.55) (xy -2.55 -1) (xy -1.9 -1) (xy -0.95 -1.95) (xy -0.25 -1.95) (xy -0.25 -2.55)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "709a1bec-1efa-4386-8728-a17423b5f42f")
+	)
+	(fp_poly
+		(pts
+			(xy -2.55 2.55) (xy -2.55 1) (xy -1.9 1) (xy -0.95 1.95) (xy -0.25 1.95) (xy -0.25 2.55)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "6a649b48-26cd-4cc9-b862-737444e893c4")
+	)
+	(fp_poly
+		(pts
+			(xy 0.25 -1.95) (xy 0.25 -2.55) (xy 2.55 -2.55) (xy 2.55 -0.15) (xy 1.95 -0.15) (xy 1.95 -0.95) (xy 0.95 -1.95)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "e1ac346f-bf10-48fb-9a07-b577b5eae5dc")
+	)
+	(fp_poly
+		(pts
+			(xy 0.25 1.95) (xy 0.25 2.55) (xy 2.55 2.55) (xy 2.55 0.15) (xy 1.95 0.15) (xy 1.95 0.95) (xy 0.95 1.95)
+		)
+		(stroke
+			(width 0.001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "7e43442c-2621-41dd-81e9-ff1eeb1fbb80")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(uuid "902c82f5-f588-4727-af93-257be71f9426")
+	)
+	(pad "2" smd custom
+		(at -2.25 -1.8 90)
+		(size 1.6 0.7)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.85 -0.35) (xy 0.8 -0.35) (xy 0.8 4.85) (xy -4.4 4.85) (xy -4.4 -0.35) (xy -2.75 -0.35) (xy -2.75 0.35)
+					(xy -3.7 1.3) (xy -3.7 3.2) (xy -2.75 4.15) (xy -0.85 4.15) (xy 0.1 3.2) (xy 0.1 1.3) (xy -0.85 0.35)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "30f81fbe-f272-471f-a34d-428f68ee8a58")
+	)
+	(model "/home/dlharmon/vna/library/3d/smp_v.stp"
+		(offset
+			(xyz 0 0 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
