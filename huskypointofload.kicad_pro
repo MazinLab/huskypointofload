@@ -723,7 +723,7 @@
         "uuid": "eb9c972b-d134-41da-be97-ece3f463f7e0"
       }
     ],
-    "used_designators": "#FLG1-44,#PWR1-339,C1-305,D1-11,F1,FB1-11,FL1-6,J1-46,JP1,L1-14,NT1,Q1,R1-275,SW1-3,TP1-28,TR1-4,U1-46,Y1-3",
+    "used_designators": "#FLG1-44,#PWR1-339,#PWR345-361,C1-305,D1-11,F1,FB1-11,FL1-6,J1-46,JP1,L1-14,NT1,Q1,R1-286,SW1-3,TP1-28,TR1-4,U1-55,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -748,8 +748,8 @@
       "HMC788A"
     ],
     [
-      "00e3f35a-bd0b-4623-9aac-59829f8e630a",
-      "Linear POL LMX"
+      "cc30a2fb-fbeb-46d2-97e3-01503582661f",
+      "Linear LO Drive"
     ],
     [
       "f8e9761d-04af-4a91-85c5-fba55f506320",
@@ -808,7 +808,7 @@
       "Linear POL LMX BUF"
     ],
     [
-      "6dfaf35c-5b7a-4e83-bfaa-7ec9bc4ec973",
+      "cc30a2fb-fbeb-46d2-97e3-01503582661f",
       "Linear LO Drive"
     ],
     [
@@ -818,10 +818,6 @@
     [
       "e3b9a158-a3aa-4eeb-b09d-59c46f782af5",
       "Recieve Chain"
-    ],
-    [
-      "00e3f35a-bd0b-4623-9aac-59829f8e630a",
-      "Linear POL LMX"
     ],
     [
       "87e75886-8a53-478a-8ff0-cf0e99af78d2",
@@ -850,10 +846,6 @@
     [
       "a878f797-8048-4803-8d22-b5b3217fc43b",
       "Transmit Chain"
-    ],
-    [
-      "1f40507f-5f9f-444c-b99e-42dfd163ee6e",
-      "RF Switching 7V"
     ],
     [
       "4dc40458-c6bd-4015-9ff1-a0684a39a7fb",
