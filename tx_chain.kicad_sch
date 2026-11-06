@@ -2278,6 +2278,25 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -4761,7 +4780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 82.55 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4835,6 +4854,9 @@
 		)
 		(pin "14"
 			(uuid "dde0728b-68ee-4650-bf84-cb13b240c185")
+		)
+		(pin "15"
+			(uuid "c6afa0d5-4db3-4dcb-ae8b-e6a11116b758")
 		)
 		(instances
 			(project "huskypointofload"
@@ -5383,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 82.55 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5458,6 +5480,9 @@
 		(pin "14"
 			(uuid "dde0728b-68ee-4650-bf84-cb13b240c186")
 		)
+		(pin "15"
+			(uuid "1fb2447c-2279-4e40-9f87-43b40110876a")
+		)
 		(instances
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/a878f797-8048-4803-8d22-b5b3217fc43b"
@@ -5498,7 +5523,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 82.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5572,6 +5597,9 @@
 		)
 		(pin "14"
 			(uuid "dde0728b-68ee-4650-bf84-cb13b240c187")
+		)
+		(pin "15"
+			(uuid "0be53d99-58e3-450e-81de-660a221d3829")
 		)
 		(instances
 			(project "huskypointofload"
@@ -5706,7 +5734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 82.55 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5780,6 +5808,9 @@
 		)
 		(pin "14"
 			(uuid "dde0728b-68ee-4650-bf84-cb13b240c188")
+		)
+		(pin "15"
+			(uuid "1dddcb56-46f8-417f-86c6-4282b26a470f")
 		)
 		(instances
 			(project "huskypointofload"
@@ -6557,7 +6588,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 82.55 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6631,6 +6662,9 @@
 		)
 		(pin "14"
 			(uuid "dde0728b-68ee-4650-bf84-cb13b240c189")
+		)
+		(pin "15"
+			(uuid "04400f0e-06c6-49eb-921c-6728a707d551")
 		)
 		(instances
 			(project "huskypointofload"
@@ -7011,7 +7045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 38.1 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7085,6 +7119,9 @@
 		)
 		(pin "14"
 			(uuid "dde0728b-68ee-4650-bf84-cb13b240c18a")
+		)
+		(pin "15"
+			(uuid "eb736871-4af5-4f2f-a295-21f3647e27dc")
 		)
 		(instances
 			(project "huskypointofload"
@@ -7204,7 +7241,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:DHWQFN-14-1EP_2.5x3mm_P0.5mm_EP1x1.5mm"
 			(at 82.55 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7278,6 +7315,9 @@
 		)
 		(pin "14"
 			(uuid "dde0728b-68ee-4650-bf84-cb13b240c18b")
+		)
+		(pin "15"
+			(uuid "b3ff0193-4cf5-48f8-8efe-fbe101011f41")
 		)
 		(instances
 			(project "huskypointofload"
