@@ -1919,6 +1919,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO:\nREPLACE WITH JUMPER"
+		(exclude_from_sim no)
+		(at 233.934 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf2ecf11-593d-49b2-ab44-cca5be8e1689")
+	)
 	(junction
 		(at 266.7 146.05)
 		(diameter 0)

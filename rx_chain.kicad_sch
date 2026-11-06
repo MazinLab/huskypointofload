@@ -4173,6 +4173,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO:\nREPLACE WITH JUMPER"
+		(exclude_from_sim no)
+		(at 382.016 211.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c601474-53f6-4f9d-9cc2-6c35d2a25d30")
+	)
 	(text "For Solderin Coax Probe"
 		(exclude_from_sim no)
 		(at 305.562 216.408 90)

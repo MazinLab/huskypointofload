@@ -4004,12 +4004,6 @@
 		(uuid "d885f882-1c89-47b3-b8f9-20af695802e5")
 	)
 	(junction
-		(at 167.64 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8cf6a40-7b9a-4374-9ba8-7baf9fbd65e0")
-	)
-	(junction
 		(at 368.3 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5495,16 +5489,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 167.64 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be9ef95-d579-49e7-9553-89a0b323d9b8")
-	)
-	(wire
-		(pts
 			(xy 36.83 91.44) (xy 39.37 91.44)
 		)
 		(stroke
@@ -6715,7 +6699,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 172.72 127)
+			(xy 152.4 127) (xy 172.72 127)
 		)
 		(stroke
 			(width 0)
@@ -7492,16 +7476,6 @@
 			(type default)
 		)
 		(uuid "becc4cd5-2edb-4506-98bf-f7b5253d46cc")
-	)
-	(wire
-		(pts
-			(xy 152.4 127) (xy 167.64 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf6dd643-14cf-478a-a0f6-d1e5d3d380ff")
 	)
 	(wire
 		(pts
@@ -8372,16 +8346,6 @@
 			(type default)
 		)
 		(uuid "eeb2464b-1640-4fe0-abb6-9f4d602a6676")
-	)
-	(wire
-		(pts
-			(xy 167.64 134.62) (xy 167.64 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0446fbd-e0ee-4e43-b272-4c21fd1796c2")
 	)
 	(wire
 		(pts
@@ -12235,87 +12199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 167.64 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "268410e1-3584-4595-85cb-8fea895d4d2d")
-		(property "Reference" "R78"
-			(at 165.1 130.8099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "49.9"
-			(at 165.1 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 167.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 167.64 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5758a995-3330-40be-aa42-8d2408aa01f0")
-		)
-		(pin "1"
-			(uuid "f60e6181-3c00-4c42-9f83-009842f46845")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/85769b72-c112-4f91-8330-0686fe078b66"
-					(reference "R78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Feedthrough")
 		(at 44.45 162.56 0)
 		(unit 1)
@@ -15615,83 +15498,6 @@
 			(project "huskypointofload"
 				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/85769b72-c112-4f91-8330-0686fe078b66"
 					(reference "C107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5c0f2eac-e3ad-4ba5-a77c-13c261cabcca")
-		(property "Reference" "#PWR0126"
-			(at 167.64 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f1cb3bdf-3075-44ea-bac0-79a82f678cba")
-		)
-		(instances
-			(project "huskypointofload"
-				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0/999a5927-21bb-4ea7-ad27-c6446933693a/85769b72-c112-4f91-8330-0686fe078b66"
-					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
