@@ -6488,7 +6488,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "051eeca0-93e6-4656-a1ec-4a62be39c936")
 		(property "Reference" "J29"
@@ -6513,7 +6513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 281.94 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11074,7 +11074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:WR-MMCX_Wuerth_66012102111404_Vertical"
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
 			(at 102.87 198.12 0)
 			(hide yes)
 			(show_name no)

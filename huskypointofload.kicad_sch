@@ -7857,7 +7857,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:WR-MMCX_Wuerth_66012102111404_Vertical"
+		(property "Footprint" "huskypoint:SMP_V_SM"
 			(at 327.66 187.96 0)
 			(hide yes)
 			(show_name no)

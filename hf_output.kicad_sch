@@ -1614,7 +1614,7 @@
 				)
 			)
 		)
-		(property "Value" "MMCX_N"
+		(property "Value" "SMP_N"
 			(at 162.0404 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1624,7 +1624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:WR-MMCX_Wuerth_66012102111404_Vertical"
+		(property "Footprint" "huskypoint:SMP_V_SM"
 			(at 162.56 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1874,7 +1874,7 @@
 				)
 			)
 		)
-		(property "Value" "MMCX_P"
+		(property "Value" "SMP_P"
 			(at 162.0404 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1884,7 +1884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:WR-MMCX_Wuerth_66012102111404_Vertical"
+		(property "Footprint" "huskypoint:SMP_V_SM"
 			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
