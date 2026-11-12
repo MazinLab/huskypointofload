@@ -6492,7 +6492,7 @@
 		(fields_autoplaced yes)
 		(uuid "051eeca0-93e6-4656-a1ec-4a62be39c936")
 		(property "Reference" "J29"
-			(at 284.48 172.9739 0)
+			(at 284.48 171.7039 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6502,8 +6502,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TUNESENSE"
-			(at 284.48 175.5139 0)
+		(property "Value" "1909763-1"
+			(at 284.48 174.2439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6535,15 +6535,15 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 281.94 172.72 0)
-			(hide yes)
+		(property "Description" "TUNESENSE"
+			(at 284.48 176.7839 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "DIGIKEY_PN" "ARF2755-ND"
@@ -11051,9 +11051,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "94073b78-5224-42b7-b6c8-8ea08a4e0ae5")
 		(property "Reference" "J28"
-			(at 100.33 196.3303 90)
+			(at 100.33 195.0603 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11063,8 +11064,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SYSREFREQ"
-			(at 100.33 198.8703 90)
+		(property "Value" "1909763-1"
+			(at 100.33 197.6003 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11096,15 +11097,15 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 102.87 198.12 0)
-			(hide yes)
+		(property "Description" "SYSREFREQ"
+			(at 100.33 200.1403 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"

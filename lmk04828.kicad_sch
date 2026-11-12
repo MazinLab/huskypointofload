@@ -14750,8 +14750,9 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "DNP"
 			(at 80.01 201.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15583,7 +15584,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 152.4 132.08 270)
+		(at 152.4 132.08 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15593,25 +15595,25 @@
 		(dnp no)
 		(uuid "4c7177e2-4a9e-4a78-b77a-522fd2b4eb24")
 		(property "Reference" "J27"
-			(at 149.86 130.2903 90)
+			(at 149.86 129.0203 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "REF"
-			(at 149.86 132.8303 90)
+		(property "Value" "1909763-1"
+			(at 149.86 131.5603 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
@@ -15636,15 +15638,15 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 152.4 132.08 0)
-			(hide yes)
+		(property "Description" "REF"
+			(at 149.86 134.1003 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "1"
@@ -22586,9 +22588,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dec9c1a8-d71e-4957-b438-05a9cbe8857c")
 		(property "Reference" "J26"
-			(at 149.86 104.8903 90)
+			(at 149.86 103.6203 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22598,8 +22601,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SYNC"
-			(at 149.86 107.4303 90)
+		(property "Value" "1909763-1"
+			(at 149.86 106.1603 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22631,15 +22634,15 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 152.4 106.68 0)
-			(hide yes)
+		(property "Description" "SYNC"
+			(at 149.86 108.7003 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "1"

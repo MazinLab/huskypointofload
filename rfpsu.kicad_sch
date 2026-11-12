@@ -3750,7 +3750,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "INTVCC"
+		(property "Value" "5015"
 			(at 88.9 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +3783,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "INTVCC"
 			(at 90.17 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6034,7 +6034,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PHMODE"
+		(property "Value" "5015"
 			(at 124.46 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6067,7 +6067,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "PHMODE"
 			(at 125.73 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7195,7 +7195,7 @@
 				)
 			)
 		)
-		(property "Value" "LNSW"
+		(property "Value" "5015"
 			(at 161.29 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7227,7 +7227,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "LNSW"
 			(at 161.29 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7825,7 +7825,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "VC"
+		(property "Value" "5015"
 			(at 97.79 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7858,7 +7858,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "VC"
 			(at 99.06 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7918,7 +7918,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "CLKOUT"
+		(property "Value" "5015"
 			(at 124.46 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7951,7 +7951,7 @@
 				)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "CLKOUT"
 			(at 125.73 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -8088,7 +8088,7 @@
 		(fields_autoplaced yes)
 		(uuid "fce3a970-fdfc-4075-b8ca-7f73eb27455c")
 		(property "Reference" "J18"
-			(at 265.43 52.3239 0)
+			(at 265.43 51.0539 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8098,8 +8098,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VSENSE"
-			(at 265.43 54.8639 0)
+		(property "Value" "1909763-1"
+			(at 265.43 53.5939 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8131,15 +8131,15 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 262.89 52.07 0)
-			(hide yes)
+		(property "Description" "VSENSE"
+			(at 265.43 56.1339 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "DIGIKEY_PN" "26-U.FL-R-SMT-1(60)CT-ND"

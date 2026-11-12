@@ -2216,7 +2216,7 @@
 		(fields_autoplaced yes)
 		(uuid "73f5dc77-2e98-4bb5-847f-e0286e800aec")
 		(property "Reference" "J16"
-			(at 152.4 92.9639 0)
+			(at 152.4 91.6939 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2226,8 +2226,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VSENSE"
-			(at 152.4 95.5039 0)
+		(property "Value" "1909763-1"
+			(at 152.4 94.2339 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2259,15 +2259,15 @@
 				)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 149.86 92.71 0)
-			(hide yes)
+		(property "Description" "VSENSE"
+			(at 152.4 96.7739 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "DIGIKEY_PN" "26-U.FL-R-SMT-1(60)CT-ND"

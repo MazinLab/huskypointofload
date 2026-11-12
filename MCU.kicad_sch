@@ -26775,6 +26775,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e5737253-bfab-44d5-bff1-8cef35f314a5")
 		(property "Reference" "TP8"
 			(at 209.55 260.3499 0)
@@ -26787,8 +26788,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BOOT0"
+		(property "Value" "5015"
 			(at 209.55 262.8899 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26820,15 +26822,15 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 210.82 261.62 0)
-			(hide yes)
+		(property "Description" "BOOT0"
+			(at 209.55 262.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "DIGIKEY_PN" "36-5015CT-ND"
