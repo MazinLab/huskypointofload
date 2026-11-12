@@ -1426,6 +1426,26 @@
 		)
 		(uuid "f8e3c9fd-a78b-4627-8bb7-e21bba96ec9d")
 	)
+	(label "B"
+		(at 140.97 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "284b378b-ea2e-47d8-9a16-abf8ad3ff17b")
+	)
+	(label "SW"
+		(at 140.97 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e1e5ec4-40da-4c1c-9cf8-d266aa8702c3")
+	)
 	(hierarchical_label "VOUT"
 		(shape input)
 		(at 185.42 78.74 0)

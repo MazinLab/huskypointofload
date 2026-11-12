@@ -969,6 +969,26 @@
 		)
 		(uuid "fbdfec2f-0512-4d53-be35-02aa1d135247")
 	)
+	(label "HFO+"
+		(at 149.86 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eec4ac6-42b5-4174-b4ad-1f76f99c2c4b")
+	)
+	(label "HFO-"
+		(at 149.86 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfca2565-bcc9-4208-8b5a-6db72cc3b9ac")
+	)
 	(hierarchical_label "C-"
 		(shape input)
 		(at 76.2 86.36 180)

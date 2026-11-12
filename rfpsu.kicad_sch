@@ -2134,16 +2134,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 53.34) (xy 125.73 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148d3c26-712c-45b4-8574-09e1b96c3d14")
-	)
-	(wire
-		(pts
 			(xy 73.66 43.18) (xy 82.55 43.18)
 		)
 		(stroke
@@ -2171,6 +2161,16 @@
 			(type default)
 		)
 		(uuid "19fd1fdf-0d5a-4883-b965-ec8dfee3edc7")
+	)
+	(wire
+		(pts
+			(xy 128.27 52.07) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "214bcfc8-f2ee-4e62-b0a0-8b075c05c032")
 	)
 	(wire
 		(pts
@@ -2714,16 +2714,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 45.72) (xy 111.76 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81a85d6a-f6fd-4bd1-9f09-fadf024241aa")
-	)
-	(wire
-		(pts
 			(xy 64.77 43.18) (xy 73.66 43.18)
 		)
 		(stroke
@@ -2864,7 +2854,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 50.8) (xy 128.27 50.8)
+			(xy 119.38 52.07) (xy 128.27 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3341,6 +3331,96 @@
 			(type default)
 		)
 		(uuid "ff7b5cd5-80b0-4eb8-b003-22c7af87b0de")
+	)
+	(label "RT"
+		(at 125.73 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04a8a867-202a-4552-8860-621b9a2fa375")
+	)
+	(label "O2"
+		(at 195.58 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "279d39e3-23a3-45cc-9f0b-2193c9511cc1")
+	)
+	(label "VC"
+		(at 107.95 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35d37eac-300b-4a4b-9f08-c6bed5deb2f7")
+	)
+	(label "SW"
+		(at 161.29 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69a408b4-8947-4442-90ec-1247a3c896c3")
+	)
+	(label "VCR"
+		(at 99.06 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aaadaf91-641b-40af-b7c7-aa7e63b2e0d5")
+	)
+	(label "CLKOUT"
+		(at 119.38 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4d52080-140b-46f5-885f-ac9ab018c0aa")
+	)
+	(label "O1"
+		(at 171.45 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de816a69-aaa0-4556-8261-37e5af7896fe")
+	)
+	(label "O3"
+		(at 203.2 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2f2599a-ce8e-4aa3-8ddb-88bfb6091e20")
+	)
+	(label "SVIN"
+		(at 119.38 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffcd9117-e8e7-4c58-80f0-d8362626564e")
 	)
 	(hierarchical_label "EN"
 		(shape input)
@@ -4828,7 +4908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 48.26 0)
+		(at 111.76 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4839,7 +4919,7 @@
 		(fields_autoplaced yes)
 		(uuid "522927bc-c8c0-4244-8cd2-78bcbc56cfe8")
 		(property "Reference" "#PWR036"
-			(at 111.76 54.61 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +4930,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 53.34 0)
+			(at 111.76 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4860,7 +4940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 48.26 0)
+			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +4951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 48.26 0)
+			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4882,7 +4962,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 48.26 0)
+			(at 111.76 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7898,7 +7978,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 125.73 53.34 0)
+		(at 119.38 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7908,7 +7988,7 @@
 		(dnp no)
 		(uuid "e82bdaf1-32e7-4537-96da-ba563dc8c139")
 		(property "Reference" "TP5"
-			(at 124.46 52.0699 0)
+			(at 118.11 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7919,7 +7999,7 @@
 			)
 		)
 		(property "Value" "5015"
-			(at 124.46 54.6099 0)
+			(at 118.11 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7930,7 +8010,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5015_Micro_Mini"
-			(at 130.81 53.34 0)
+			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,7 +8021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 53.34 0)
+			(at 124.46 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,7 +8032,7 @@
 			)
 		)
 		(property "Description" "CLKOUT"
-			(at 125.73 53.34 0)
+			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,7 +8043,7 @@
 			)
 		)
 		(property "DIGIKEY_PN" "36-5015CT-ND"
-			(at 125.73 53.34 0)
+			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2543,6 +2543,86 @@
 		)
 		(uuid "ff635b1a-f10a-495d-83ea-2bb214e9bdbf")
 	)
+	(label "LO_{4}"
+		(at 232.41 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0afcbdb7-3d8d-488b-b920-2eb2ce80f02c")
+	)
+	(label "LO_{2}"
+		(at 189.23 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b20f33c-13ad-45ca-933f-d4285aae275d")
+	)
+	(label "I_{1}"
+		(at 294.64 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35ad663a-81d1-4cac-97f5-fbcb3291e3ad")
+	)
+	(label "LO_{3}"
+		(at 213.36 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "648d26e7-67c2-40df-b7c0-defc6dfdc16c")
+	)
+	(label "5V_{LO}"
+		(at 119.38 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90d1d240-bf66-49d9-a17a-5a803c27329f")
+	)
+	(label "LO_{1}"
+		(at 162.56 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bf21b7e-206a-49ed-9356-2885b1200d54")
+	)
+	(label "Q_{1}"
+		(at 294.64 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b70deca3-e832-495a-9d48-ab1b0b72f1c1")
+	)
+	(label "LO_{5}"
+		(at 248.92 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dabad365-c86e-4c55-a76b-cb30a44c19fe")
+	)
 	(hierarchical_label "RF"
 		(shape input)
 		(at 250.19 138.43 180)

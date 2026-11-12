@@ -1237,16 +1237,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 83.82) (xy 116.84 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37e6f194-08a3-4a28-b66c-4a7ac8088bba")
-	)
-	(wire
-		(pts
 			(xy 139.7 81.28) (xy 149.86 81.28)
 		)
 		(stroke
@@ -1307,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 83.82) (xy 109.22 83.82)
+			(xy 106.68 83.82) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1604,6 +1594,16 @@
 			(type default)
 		)
 		(uuid "fd48d504-c9a0-4f14-bc37-7e785cceac7e")
+	)
+	(label "OUTS"
+		(at 106.68 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e5cbbb8-6422-476e-9425-18ce1e439a0a")
 	)
 	(hierarchical_label "VOUT"
 		(shape input)
@@ -2565,7 +2565,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 111.76 83.82 90)
+		(at 114.3 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2575,7 +2575,7 @@
 		(dnp no)
 		(uuid "ad8e80d0-3125-437c-be5b-f39d84ef91a0")
 		(property "Reference" "R9"
-			(at 111.76 82.296 90)
+			(at 114.3 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2585,7 +2585,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 111.76 83.82 90)
+			(at 114.3 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2595,7 +2595,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.76 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +2606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2617,7 +2617,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 111.76 83.82 0)
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,7 +2628,7 @@
 			)
 		)
 		(property "DIGIKEY_PN" "311-10.0LRCT-ND"
-			(at 111.76 83.82 90)
+			(at 114.3 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

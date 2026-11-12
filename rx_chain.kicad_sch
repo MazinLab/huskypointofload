@@ -8218,6 +8218,26 @@
 		)
 		(uuid "ff5b2fea-39c2-47f6-ac35-c01422f0f7d1")
 	)
+	(label "RX_{3}-"
+		(at 163.83 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02be9e8c-c040-4d63-8913-8dd09f53bf46")
+	)
+	(label "RX_{7}"
+		(at 372.11 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0986e652-4ff2-4965-8d8a-bcbee5082a67")
+	)
 	(label "VCC_RX_DIG"
 		(at 88.9 60.96 0)
 		(effects
@@ -8298,6 +8318,26 @@
 		)
 		(uuid "36e858ce-f447-4a55-87d0-0aa15dda518d")
 	)
+	(label "RX_{3}+"
+		(at 163.83 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3893e8dc-4943-4175-af0b-45c38a819419")
+	)
+	(label "VOUT_LNA"
+		(at 55.88 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38b72f5c-9928-4c05-9845-b57dad1572af")
+	)
 	(label "VCC_AMP2_AMP2"
 		(at 321.31 73.66 0)
 		(effects
@@ -8337,6 +8377,26 @@
 			(justify left bottom)
 		)
 		(uuid "576808d6-5957-421f-bbe8-e198af339536")
+	)
+	(label "RX_{1}"
+		(at 60.96 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58cbff24-3f87-45ad-8a82-e5f7f6b02e7d")
+	)
+	(label "RX_{4}"
+		(at 236.22 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d93c876-01ff-4a44-9613-f714e274578b")
 	)
 	(label "SCK_INT"
 		(at 162.56 248.92 180)
@@ -8518,6 +8578,26 @@
 		)
 		(uuid "b83f1a27-e880-4644-9b04-58b9792c4f78")
 	)
+	(label "RX_{6}"
+		(at 309.88 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd106eb7-f0ea-4603-ae60-f5239a8701c7")
+	)
+	(label "RX_{2}"
+		(at 93.98 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4e73044-139f-4743-b5b4-fa5d1bacd685")
+	)
 	(label "VCC_AMP2_AMP1"
 		(at 201.93 180.34 90)
 		(effects
@@ -8567,6 +8647,16 @@
 			(justify left bottom)
 		)
 		(uuid "cf9b0932-ebc7-483b-a503-3de5e6bb38fe")
+	)
+	(label "RX_{5}"
+		(at 295.91 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d89d60f2-a756-4422-8453-15dc51811f20")
 	)
 	(label "SCK_INT"
 		(at 238.76 213.36 0)

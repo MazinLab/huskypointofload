@@ -5109,6 +5109,36 @@
 		)
 		(uuid "fec9e1ee-3971-456c-b0ce-21d840b24a2e")
 	)
+	(label "VDC_FB"
+		(at 129.54 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e0e3cd6-5421-4f47-a4b0-de25bd0a371a")
+	)
+	(label "VDC_FUSED"
+		(at 101.6 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a27ca788-c532-4c26-bc65-22f806cd7ebf")
+	)
+	(label "VDC_SENSER"
+		(at 73.66 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eac14982-bfc6-42b8-b10a-0be518b675c0")
+	)
 	(hierarchical_label "RF4_SENSE"
 		(shape input)
 		(at 219.71 36.83 180)

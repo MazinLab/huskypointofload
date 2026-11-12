@@ -2174,6 +2174,46 @@
 		)
 		(uuid "fb02913e-6598-4877-86a3-756f8b85eea9")
 	)
+	(label "LP1"
+		(at 236.22 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21a88b5e-e883-40ce-8d58-b77312025170")
+	)
+	(label "HP1"
+		(at 234.95 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e47ae19-7ceb-4b00-a0f6-fed28a6ab2e6")
+	)
+	(label "RF2"
+		(at 160.02 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "65a852b5-7955-46fb-982a-d8e87f494532")
+	)
+	(label "RF1"
+		(at 135.89 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd52c48e-1680-4431-9d90-1d73cebcf4ef")
+	)
 	(hierarchical_label "COMMON"
 		(shape input)
 		(at 101.6 76.2 180)
