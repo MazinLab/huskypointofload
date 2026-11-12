@@ -13395,7 +13395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.7x4.7mm_ThermalVias"
+		(property "Footprint" "huskypoint:QFN-64_EP_9x9_Pitch0.5mm_EP7.2"
 			(at 313.817 231.648 0)
 			(hide yes)
 			(show_name no)
@@ -13417,7 +13417,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LMK0482x"
 			(at 306.07 166.37 0)
 			(hide yes)
 			(show_name no)

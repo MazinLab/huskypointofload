@@ -11092,7 +11092,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
+		(property "Footprint" "huskypoint:LGA-24_CC-24-17"
 			(at 207.01 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -13421,7 +13421,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-8_2x2mm_P0.5mm"
+		(property "Footprint" "huskypoint:QFN-8_EP_2x2_Pitch0.5mm_ADL8124"
 			(at 80.01 204.47 0)
 			(hide yes)
 			(show_name no)
@@ -15214,7 +15214,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias"
+		(property "Footprint" "huskypoint:LGA-24_CC-24-17"
 			(at 130.81 204.47 0)
 			(hide yes)
 			(show_name no)
