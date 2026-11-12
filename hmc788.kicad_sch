@@ -1046,6 +1046,56 @@
 		)
 		(uuid "fd4ea675-61d8-466c-b6be-a44a97a68be7")
 	)
+	(label "RFIn_DC"
+		(at 123.19 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10c460f3-42be-4465-9e18-296127354516")
+	)
+	(label "RFOut_DC"
+		(at 152.4 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46f1b46f-2b22-4ac9-a408-4b68cf922999")
+	)
+	(label "BIAS2"
+		(at 127 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8793386d-1f92-4641-ad11-d6468a9a5a6b")
+	)
+	(label "BIAS1"
+		(at 109.22 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea9cf69-d2e4-412b-a17a-749b753f2921")
+	)
+	(label "BIAS3"
+		(at 147.32 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4bdbf2c-dadb-4c0c-9e85-a585134961cd")
+	)
 	(hierarchical_label "5VIN"
 		(shape input)
 		(at 93.98 63.5 180)
@@ -1398,7 +1448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_CSP:LFCSP-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
+		(property "Footprint" "huskypoint:LFCSP-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 139.7 101.6 0)
 			(hide yes)
 			(show_name no)

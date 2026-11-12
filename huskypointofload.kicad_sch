@@ -2055,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 227.33 38.1)
+			(xy 220.98 38.1) (xy 227.33 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 38.1) (xy 215.9 38.1)
+			(xy 215.9 38.1) (xy 213.36 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3465,7 +3465,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 38.1) (xy 215.9 40.64)
+			(xy 213.36 38.1) (xy 213.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5182,25 +5182,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "21795339-8095-4243-a930-c1aa58ec8095")
 		(property "Reference" "J13"
-			(at 374.65 162.56 0)
+			(at 370.84 160.7703 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SYNCOUT"
-			(at 372.11 162.56 0)
+		(property "Value" "901-10513-3"
+			(at 370.84 163.3103 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "huskypoint:SMP_EL"
@@ -5225,8 +5228,20 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 368.3 162.56 0)
+		(property "Description" "SYNCOUT"
+			(at 370.84 163.3103 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
+			(at 368.3 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5443,7 @@
 				)
 			)
 		)
-		(property "Value" "ADC_A"
+		(property "Value" "901-10513-3"
 			(at 368.3 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5460,7 +5475,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "ADC_A"
+			(at 368.3 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5498,7 +5524,7 @@
 		(dnp no)
 		(uuid "4c93ea3a-b90a-4142-a3c5-9c91ba488f69")
 		(property "Reference" "J4"
-			(at 220.98 118.11 0)
+			(at 220.98 117.602 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5507,8 +5533,8 @@
 				)
 			)
 		)
-		(property "Value" "FROM_FRIDGE"
-			(at 220.98 120.65 0)
+		(property "Value" "19S104-40ML5"
+			(at 218.694 119.634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,9 +5565,8 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 220.98 124.46 0)
-			(hide yes)
+		(property "Description" "FROM_FRIDGE"
+			(at 219.71 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5811,25 +5836,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5af0ad26-e20c-417b-9771-ae36d9a7c584")
 		(property "Reference" "J14"
-			(at 374.65 175.26 0)
+			(at 370.84 173.4703 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "REFOUT"
-			(at 372.11 175.26 0)
+		(property "Value" "901-10513-3"
+			(at 370.84 176.0103 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "huskypoint:SMP_EL"
@@ -5854,7 +5882,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "REFOUT"
+			(at 368.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5882,7 +5921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 40.64 0)
+		(at 213.36 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5893,7 +5932,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f642b01-f538-4469-a765-e3d1f0b9d3a7")
 		(property "Reference" "#PWR07"
-			(at 215.9 46.99 0)
+			(at 213.36 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5904,7 +5943,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 45.72 0)
+			(at 213.36 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5914,7 +5953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 40.64 0)
+			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,7 +5964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 40.64 0)
+			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5936,7 +5975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 40.64 0)
+			(at 213.36 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6301,7 +6340,7 @@
 				)
 			)
 		)
-		(property "Value" "ADC_B"
+		(property "Value" "901-10513-3"
 			(at 368.3 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6333,7 +6372,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "ADC_B"
+			(at 368.3 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6448,9 +6498,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9e114d0a-7858-45b8-91b3-c48bbd2ca13b")
 		(property "Reference" "J5"
-			(at 220.98 161.29 0)
+			(at 220.4604 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6459,8 +6510,8 @@
 				)
 			)
 		)
-		(property "Value" "PARAMP_DRIVE"
-			(at 220.98 163.83 0)
+		(property "Value" "19S104-40ML5"
+			(at 220.4604 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6491,9 +6542,8 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 220.98 167.64 0)
-			(hide yes)
+		(property "Description" "PARAMP_DRIVE"
+			(at 220.4604 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6777,7 +6827,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC_A"
+		(property "Value" "901-10513-3"
 			(at 368.3 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6809,7 +6859,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "DAC_A"
+			(at 368.3 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6969,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Value" "DAC_B"
+		(property "Value" "901-10513-3"
 			(at 368.3 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +7062,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "DAC_B"
+			(at 368.3 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7108,7 +7180,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 220.98 38.1 180)
+		(at 218.44 38.1 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7116,9 +7188,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ca198387-ce48-4d32-a894-c657619b7393")
 		(property "Reference" "J3"
-			(at 220.98 31.75 0)
+			(at 218.9595 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7127,8 +7200,8 @@
 				)
 			)
 		)
-		(property "Value" "TO_FRIDGE"
-			(at 220.98 34.29 0)
+		(property "Value" "19S104-40ML5"
+			(at 218.9595 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7138,7 +7211,7 @@
 			)
 		)
 		(property "Footprint" "huskypoint:SMP_V_SM"
-			(at 220.98 38.1 0)
+			(at 218.44 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +7222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 38.1 0)
+			(at 218.44 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7159,9 +7232,8 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 220.98 38.1 0)
-			(hide yes)
+		(property "Description" "TO_FRIDGE"
+			(at 218.9595 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7528,7 +7600,7 @@
 				)
 			)
 		)
-		(property "Value" "ADC_C"
+		(property "Value" "901-10513-3"
 			(at 368.3 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7560,7 +7632,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "ADC_C"
+			(at 368.3 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7847,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Value" "PPSIN"
+		(property "Value" "19S104-40ML5"
 			(at 323.85 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7879,7 +7962,7 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "PPSIN"
 			(at 327.66 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -7915,25 +7998,28 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ebc8669b-de51-4224-b5dd-28ddee7f8875")
 		(property "Reference" "J15"
-			(at 374.65 187.96 0)
+			(at 370.84 186.1703 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "PPSOUT"
-			(at 372.11 187.96 0)
+		(property "Value" "901-10513-3"
+			(at 370.84 188.7103 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "huskypoint:SMP_EL"
@@ -7958,7 +8044,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "PPSOUT"
+			(at 368.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8244,7 +8341,7 @@
 				)
 			)
 		)
-		(property "Value" "ADC_D"
+		(property "Value" "901-10513-3"
 			(at 368.3 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8276,7 +8373,18 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "ADC_D"
+			(at 368.3 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DIGIKEY_PN" "ARF2506-ND"
 			(at 368.3 134.62 0)
 			(hide yes)
 			(show_name no)

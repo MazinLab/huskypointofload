@@ -969,6 +969,26 @@
 		)
 		(uuid "fbdfec2f-0512-4d53-be35-02aa1d135247")
 	)
+	(label "HFO+"
+		(at 149.86 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eec4ac6-42b5-4174-b4ad-1f76f99c2c4b")
+	)
+	(label "HFO-"
+		(at 149.86 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfca2565-bcc9-4208-8b5a-6db72cc3b9ac")
+	)
 	(hierarchical_label "C-"
 		(shape input)
 		(at 76.2 86.36 180)
@@ -1603,9 +1623,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9563e708-cf07-4068-913f-c62300410af0")
 		(property "Reference" "J32"
-			(at 162.0404 92.71 0)
+			(at 162.0404 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1614,8 +1635,8 @@
 				)
 			)
 		)
-		(property "Value" "SMP_N"
-			(at 162.0404 90.17 0)
+		(property "Value" "19S104-40ML5"
+			(at 162.0404 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1646,9 +1667,8 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 162.56 86.36 0)
-			(hide yes)
+		(property "Description" "SMP_N"
+			(at 162.0404 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1865,7 +1885,7 @@
 		(fields_autoplaced yes)
 		(uuid "d34309b0-f455-4242-a0d4-2f6458d97b36")
 		(property "Reference" "J31"
-			(at 162.0404 69.85 0)
+			(at 162.0404 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1874,8 +1894,8 @@
 				)
 			)
 		)
-		(property "Value" "SMP_P"
-			(at 162.0404 72.39 0)
+		(property "Value" "19S104-40ML5"
+			(at 162.0404 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1906,9 +1926,8 @@
 				)
 			)
 		)
-		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 162.56 76.2 0)
-			(hide yes)
+		(property "Description" "SMP_P"
+			(at 162.0404 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
