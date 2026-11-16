@@ -4374,6 +4374,16 @@
 		)
 		(uuid "2012b9ea-c2df-4dd6-aa04-25769be72e09")
 	)
+	(label "TX_{1}"
+		(at 241.3 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2385c5ba-cb6f-4186-b282-59acff5244f6")
+	)
 	(label "VCC_TX_DIG"
 		(at 101.6 25.4 0)
 		(effects
@@ -4383,6 +4393,16 @@
 			(justify left bottom)
 		)
 		(uuid "272da724-aff2-4ce9-99c3-65bdb22564a0")
+	)
+	(label "TX_{5}"
+		(at 36.83 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c79ca4-49ab-4123-8a42-bc518851163e")
 	)
 	(label "VCC_TX_DIG"
 		(at 38.1 133.35 180)
@@ -4424,6 +4444,26 @@
 		)
 		(uuid "9a4cbf2f-1a88-4442-bb71-58ed0e201399")
 	)
+	(label "TX_{2}"
+		(at 199.39 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a59ed51-4e54-42b1-98b8-d9d9bc619d25")
+	)
+	(label "TX_{4}"
+		(at 67.31 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab5450fc-32f3-4de9-947a-5bb403911ce0")
+	)
 	(label "LE_INT"
 		(at 142.24 80.01 180)
 		(effects
@@ -4453,6 +4493,16 @@
 			(justify right bottom)
 		)
 		(uuid "c763e9c2-ef8f-4242-a75e-832a940d0e43")
+	)
+	(label "TX_{3}"
+		(at 142.24 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce57a339-6a3f-4173-bcf8-30ac3a50cdf5")
 	)
 	(label "SERINA_INT"
 		(at 109.22 142.24 0)

@@ -953,6 +953,16 @@
 		)
 		(uuid "e0adf5fa-b6f1-4e36-959d-5e884dae5a8a")
 	)
+	(label "BIAS_F"
+		(at 110.49 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6723b1c-120d-4383-913b-36e7ccf79c03")
+	)
 	(hierarchical_label "IN_{N}"
 		(shape input)
 		(at 88.9 113.03 180)

@@ -1300,6 +1300,26 @@
 		)
 		(uuid "fd992fdc-229f-4528-b20c-97ef1c8735e2")
 	)
+	(label "DCB-"
+		(at 87.63 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "012f5640-4f09-4c45-bc05-92d5cc5d0cfc")
+	)
+	(label "DCB+"
+		(at 87.63 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35c586a7-2dfe-4090-be80-9b949336c3be")
+	)
 	(hierarchical_label "C+"
 		(shape input)
 		(at 25.4 78.74 180)

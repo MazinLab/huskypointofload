@@ -1817,6 +1817,76 @@
 		)
 		(uuid "fd2018ad-0593-4a08-bc58-2952ea00096e")
 	)
+	(label "LO_SYNC"
+		(at 99.06 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d18f42b-425d-40fd-b82c-90b6628a7ee2")
+	)
+	(label "PARA_REFCLK+"
+		(at 91.44 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3004fb7e-6584-45e0-a090-8ea106421bb2")
+	)
+	(label "PARA_SYNC"
+		(at 99.06 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4138a34c-8e68-49b5-8cf4-f4eb656eefe4")
+	)
+	(label "LO_REFCLK+"
+		(at 91.44 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aefeaae-380a-457f-87e8-a23eb27c8305")
+	)
+	(label "LED_GND_SW"
+		(at 172.72 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "908bb684-63b1-44b8-a716-eb4040484013")
+	)
+	(label "LO_REFCLK-"
+		(at 93.98 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af65980f-3abe-4f1c-92d5-bcd731494086")
+	)
+	(label "PARA_REFCLK-"
+		(at 93.98 101.6 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1d6015f-168c-496b-a3d1-5095396d0fad")
+	)
 	(label "MUXOUT_{LO}"
 		(at 119.38 139.7 0)
 		(effects
