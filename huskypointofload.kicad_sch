@@ -2035,6 +2035,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 121.92) (xy 340.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03301fdd-06b7-4161-9e06-f0ad8d0ec9ac")
+	)
+	(wire
+		(pts
 			(xy 370.84 78.74) (xy 373.38 78.74)
 		)
 		(stroke
@@ -2292,6 +2302,16 @@
 			(type default)
 		)
 		(uuid "1bdb1974-555b-4831-9f1d-fafa44c2c786")
+	)
+	(wire
+		(pts
+			(xy 360.68 121.92) (xy 365.76 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c892489-2944-45e8-849c-59622f44445f")
 	)
 	(wire
 		(pts
@@ -3385,16 +3405,6 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 121.92) (xy 365.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94209f48-8282-4c42-b95a-bee90ac3abf5")
-	)
-	(wire
-		(pts
 			(xy 356.87 179.07) (xy 368.3 179.07)
 		)
 		(stroke
@@ -3652,6 +3662,16 @@
 			(type default)
 		)
 		(uuid "b5d41bd8-1df2-4164-a40f-9fa56d19bb43")
+	)
+	(wire
+		(pts
+			(xy 336.55 134.62) (xy 340.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a5a595-43e3-4d3c-8761-a4482b9c9717")
 	)
 	(wire
 		(pts
@@ -4015,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 134.62) (xy 365.76 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14f5a6a-bb07-4f38-82e3-ae21b1c27a38")
+	)
+	(wire
+		(pts
 			(xy 356.87 161.29) (xy 356.87 158.75)
 		)
 		(stroke
@@ -4142,16 +4172,6 @@
 			(type default)
 		)
 		(uuid "ee74fb11-606f-4c54-b803-035e7bbdfaf8")
-	)
-	(wire
-		(pts
-			(xy 360.68 134.62) (xy 365.76 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee817f09-55f9-4887-bcaf-7efc475ee77b")
 	)
 	(wire
 		(pts
@@ -8527,6 +8547,92 @@
 		)
 	)
 	(sheet
+		(at 340.36 119.38)
+		(size 20.32 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "55a76b17-ed27-4f6c-9bdb-f22176f3ec84")
+		(property "Sheetname" "IF Amp"
+			(at 340.36 118.6684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "if_amp.kicad_sch"
+			(at 340.36 137.5414 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I_{IN}" input
+			(at 340.36 121.92 180)
+			(uuid "e6548466-e528-4298-9f59-5b3c36c2c44a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I_{OUT}" input
+			(at 360.68 121.92 0)
+			(uuid "2102950e-bb1a-4d48-a7f5-c4fb7d537043")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Q_{IN}" input
+			(at 340.36 134.62 180)
+			(uuid "95156042-06bc-47d6-9e76-52b169531223")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Q_{OUT}" input
+			(at 360.68 134.62 0)
+			(uuid "d8082d2a-76c2-40d1-a7ef-c3ede9137b41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "huskypointofload"
+				(path "/eb9c972b-d134-41da-be97-ece3f463f7e0"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 160.02 119.38)
 		(size 33.02 83.82)
 		(exclude_from_sim no)
@@ -9864,7 +9970,7 @@
 	)
 	(sheet
 		(at 316.23 119.38)
-		(size 44.45 17.78)
+		(size 20.32 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9890,18 +9996,18 @@
 			)
 		)
 		(property "Sheetfile" "hmc525.kicad_sch"
-			(at 316.23 137.7446 0)
+			(at 316.23 137.5414 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left top)
 			)
 		)
 		(pin "I" input
-			(at 360.68 121.92 0)
+			(at 336.55 121.92 0)
 			(uuid "2c98c22a-5897-4530-b054-8d82b957541f")
 			(effects
 				(font
@@ -9921,7 +10027,7 @@
 			)
 		)
 		(pin "Q" input
-			(at 360.68 134.62 0)
+			(at 336.55 134.62 0)
 			(uuid "53553ee2-510e-4d65-9eaf-c562a96eb179")
 			(effects
 				(font

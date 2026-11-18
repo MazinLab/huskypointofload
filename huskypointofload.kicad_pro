@@ -723,7 +723,7 @@
         "uuid": "eb9c972b-d134-41da-be97-ece3f463f7e0"
       }
     ],
-    "used_designators": "#FLG1-45,#PWR1-339,#PWR345-361,C1-305,D1-11,F1,FB1-24,FL1-6,J1-46,JP1,L1-14,NT1,Q1,R1-286,SW1-3,TP1-28,TR1-4,U1-56,Y1-3",
+    "used_designators": "#FLG1-45,#PWR1-339,#PWR345-361,C1-314,D1-11,F1,FB1-28,FL1-6,J1-51,JP1,L1-14,NT1,Q1,R1-286,SW1-3,TP1-28,TR1-4,U1-66,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -820,6 +820,10 @@
       "Recieve Chain"
     ],
     [
+      "55a76b17-ed27-4f6c-9bdb-f22176f3ec84",
+      "IF Amp"
+    ],
+    [
       "87e75886-8a53-478a-8ff0-cf0e99af78d2",
       "LMX Single Ended Matching A1"
     ],
@@ -846,6 +850,10 @@
     [
       "a878f797-8048-4803-8d22-b5b3217fc43b",
       "Transmit Chain"
+    ],
+    [
+      "b34f9470-dbde-42a2-8cf7-78b279a816ca",
+      "Linear LO Drive"
     ],
     [
       "4dc40458-c6bd-4015-9ff1-a0684a39a7fb",

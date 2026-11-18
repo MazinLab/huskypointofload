@@ -5171,16 +5171,6 @@
 		)
 		(uuid "a27ca788-c532-4c26-bc65-22f806cd7ebf")
 	)
-	(label "VDC_SENSER"
-		(at 114.3 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eac14982-bfc6-42b8-b10a-0be518b675c0")
-	)
 	(hierarchical_label "RF4_SENSE"
 		(shape input)
 		(at 219.71 36.83 180)
